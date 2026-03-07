@@ -162,4 +162,4 @@ Some typical panning:
 - **Mike Senior** — *Mixing Secrets for the Small Studio* (2nd ed., 2019) — Practical, budget-friendly, hands-on
 - **Roey Izhaki** — *Mixing Audio* (4th ed., 2024) — Comprehensive technical reference
 - **William Moylan** — *The Art of Recording* (2002/2015) — Deep analytical and aesthetic perspective
-- **David Miles Huber** — *Modern Recording Techniques* (latest ed.) — Broad survey of the full recording chain
+- **David Miles Huber** — *Modern Recording Techniques* (9th ed., 2017) — Broad survey of the full recording chain
