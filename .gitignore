@@ -3,3 +3,5 @@
 !.gitignore
 !lecture/
 !lecture/**
+lecture/lecture-outline.md
+lecture/lecture-script.md
