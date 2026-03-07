@@ -1,2 +1,4 @@
-lecture/lecture-outline.md
-lecture/lecture-script.md
+*
+!.gitignore
+!lecture/
+!lecture/**
