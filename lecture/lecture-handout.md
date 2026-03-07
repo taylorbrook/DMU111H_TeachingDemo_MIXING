@@ -1,13 +1,13 @@
-# Mixing as an Art — Student Handout
+# Intro to Audio Mixing
 
 ---
 
-## The Big Idea
+## What is Mixing?
 
 "We are mixing engineers, but more importantly: we are *sonic artists*."
 — Roey Izhaki, *Mixing Audio*
 
-Mixing is the process of combining individual recorded tracks into a finished stereo (or surround) piece. It is both a technical craft and a creative art form — every decision you make shapes how the listener experiences the music.
+Mixing is the process of combining individual recorded tracks into a finished stereo (or surround) piece. It is both a technical craft and a creative art form.
 
 ---
 
@@ -46,7 +46,7 @@ EQ shapes the **frequency content** of a sound — what you hear as tone, bright
 | 4-6 kHz | Harsh, sibilant | Gentle cut or de-esser |
 | 10 kHz+ | Hiss, sibilance | Shelf cut or de-esser |
 
-### Best Practices
+### Best Practices of EQ
 
 - **Subtractive first**: Cut problem frequencies before boosting desired ones — introduces fewer artifacts (Senior, *Mixing Secrets*)
 - **HPF on everything**: Unless it's bass or kick, high-pass filter to remove unnecessary low-end rumble. Izhaki calls the HPF "the most-used filter in mixing."
@@ -72,9 +72,9 @@ Compression controls **dynamic range** — the difference between the loudest an
 | Parameter | What It Does | Think of It As... |
 |-----------|-------------|-------------------|
 | **Threshold** | Level where compression begins | The "trigger point" |
-| **Ratio** | How much to reduce above threshold | How aggressively it acts |
-| **Attack** | How quickly compression engages | Fast = catches transients; Slow = lets snap through |
-| **Release** | How quickly compression stops | Fast = pumping effect; Slow = smooth |
+| **Ratio** | How much to reduce above threshold | How aggressively the dynamic range is compressed |
+| **Attack** | How quickly compression engages | Fast = catches transients; Slow = lets transients through |
+| **Release** | How quickly compression stops | Fast = can produce a pumping effect; Slow = smooth |
 | **Makeup Gain** | Boosts output to compensate for reduction | Restoring perceived volume |
 
 ### Best Practices
@@ -88,7 +88,7 @@ Compression controls **dynamic range** — the difference between the loudest an
 
 ## Reverb
 
-Reverb creates a sense of **space and dimension**. "Without reverb, mixes sound flat and two-dimensional." — Izhaki, *Mixing Audio*
+Reverb creates a sense of **space**. "Without reverb, mixes sound flat and two-dimensional." — Izhaki, *Mixing Audio*
 
 ### The Sound Stage (after Huber & Moylan)
 
@@ -98,16 +98,16 @@ Reverb creates a sense of **space and dimension**. "Without reverb, mixes sound 
 
 | Parameter | What It Does | Tip |
 |-----------|-------------|-----|
-| **Pre-delay** | Gap before reverb begins | Longer = keeps lead element clear and upfront (Owsinski) |
-| **Decay time** | Length of reverb tail | Match to song tempo — reverb is rhythmic (Stavrou) |
+| **Pre-delay** | Gap before reverb begins | Longer = keeps lead element clear and upfront |
+| **Decay time** | Length of reverb tail | Consider matching to song tempo — reverb can be rhythmic |
 | **Wet/dry** | Blend of effect vs. original | Less is usually more |
-| **Type** | Hall, room, plate, spring, etc. | Each has a character; experiment |
+| **Type** | Hall, room, plate, spring, etc. | Each has a character; experiment and get to know the sound of these different types|
 
 ### Best Practices
 
-- **Use sends, not inserts**: Route multiple channels to a shared reverb bus for a cohesive space
+- **Use sends, not inserts**: Route multiple channels to a shared reverb bus with 100% wet and 0% dry signal to control how much reverb is added to the mix and cohere various parts together into the same virtual space
 - **Effects should add dimension "without being consciously noticed"** — Owsinski
-- Dry + loud = close/upfront. Wet + quiet = far/ambient. Use this to create depth.
+- Dry + loud = close/upfront. Wet + quiet = far/ambient. This use of reverb can create depth.
 
 ---
 
@@ -115,9 +115,10 @@ Reverb creates a sense of **space and dimension**. "Without reverb, mixes sound 
 
 ![Panning — Stereo Placement](diagrams/06-panning.svg)
 
-- **Centre**: Lead, bass, primary rhythm — the foundation
-- **Sides**: Harmony, secondary elements, texture, percussion — width and interest
-- **Always check in mono**: If panned elements disappear in mono, there may be phase issues
+Some typical panning:
+- **Centre**: Lead, bass, primary rhythm
+- **Sides**: Harmony, secondary elements, texture, percussion
+- **Check in mono**: If panned elements disappear in mono, there may be phase issues
 
 ---
 
@@ -151,7 +152,6 @@ Reverb creates a sense of **space and dimension**. "Without reverb, mixes sound 
 | Resource | What It Is | URL |
 |----------|-----------|-----|
 | **cambridge-mt.com** | 500+ free multitrack sessions for mixing practice | cambridge-mt.com/ms/mtk/ |
-| **SoundGym** | Free gamified ear training (EQ, compression, panning) | soundgym.co |
 | **iZotope Learn Hub** | Free articles and guides on mixing fundamentals | izotope.com/en/learn |
 | **Dan Worrall (YouTube)** | Deep technical tutorials on EQ, compression, stereo | YouTube |
 | **Produce Like A Pro (YouTube)** | Full mixing tutorials with free multitracks | YouTube |
