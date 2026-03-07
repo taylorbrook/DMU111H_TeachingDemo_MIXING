@@ -5,7 +5,7 @@
 Using a free multitrack session, you will create a complete stereo mix that demonstrates your understanding of the core mixing concepts covered in class: balance, EQ, compression, reverb, and panning.
 
 **Due**: [DATE]
-**Format**: Stereo WAV or AIFF file, 44.1 kHz / 24-bit, plus a short written reflection
+**Format**: Stereo WAV or AIFF file, 48kHz / 24-bit, plus a short written reflection
 **Estimated time**: 3-5 hours
 
 ---
@@ -61,7 +61,7 @@ Write a short reflection addressing the following:
 
 ## Deliverables
 
-1. **Stereo mix** — WAV or AIFF, 44.1 kHz / 24-bit, peak level below 0 dBFS (leave headroom — do not clip)
+1. **Stereo mix** — WAV or AIFF, 48 kHz / 24-bit, peak level below 0 dBFS (leave headroom — do not clip)
 2. **Written reflection** — 300-500 words (PDF or Word doc)
 
 ---
@@ -97,6 +97,3 @@ Write a short reflection addressing the following:
 ## Resources
 
 - **Multitrack sessions**: cambridge-mt.com/ms/mtk/
-- **Ear training**: soundgym.co (free tier)
-- **Free DAW options**: GarageBand (Mac), Audacity, REAPER (free educational license)
-- **Reference**: Lecture handout (Six Elements, Trouble Frequencies, Signal Flow, Sound Stage)
