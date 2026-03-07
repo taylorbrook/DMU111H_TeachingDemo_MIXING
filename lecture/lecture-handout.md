@@ -1,0 +1,165 @@
+# Mixing as an Art — Student Handout
+
+---
+
+## The Big Idea
+
+"We are mixing engineers, but more importantly: we are *sonic artists*."
+— Roey Izhaki, *Mixing Audio*
+
+Mixing is the process of combining individual recorded tracks into a finished stereo (or surround) piece. It is both a technical craft and a creative art form — every decision you make shapes how the listener experiences the music.
+
+---
+
+## Owsinski's Six Elements of a Mix
+
+Bobby Owsinski's framework from *The Mixing Engineer's Handbook* organizes everything in a mix into six elements:
+
+![The Six Elements of a Mix](diagrams/01-six-elements.svg)
+
+---
+
+## Signal Flow
+
+![Signal Flow](diagrams/02-signal-flow.svg)
+
+**Key concept**: Use **inserts** for processing that's unique to a channel (EQ, compression). Use **sends** for effects shared across multiple channels (reverb, delay). This creates a cohesive sense of space and saves CPU.
+
+---
+
+## EQ (Equalization)
+
+EQ shapes the **frequency content** of a sound — what you hear as tone, brightness, warmth, or muddiness.
+
+### The Frequency Spectrum
+
+![The Frequency Spectrum](diagrams/03-frequency-spectrum.svg)
+
+### Owsinski's Six Trouble Frequency Areas
+
+| Frequency | Problem | Solution |
+|-----------|---------|----------|
+| ~200 Hz | Mud, boominess | HPF or gentle cut |
+| 300-500 Hz | Boxiness | Narrow cut |
+| ~800 Hz | Cheap, hollow | Narrow cut |
+| 1-1.5 kHz | Nasal, honky | Narrow cut |
+| 4-6 kHz | Harsh, sibilant | Gentle cut or de-esser |
+| 10 kHz+ | Hiss, sibilance | Shelf cut or de-esser |
+
+### Best Practices
+
+- **Subtractive first**: Cut problem frequencies before boosting desired ones — introduces fewer artifacts (Senior, *Mixing Secrets*)
+- **HPF on everything**: Unless it's bass or kick, high-pass filter to remove unnecessary low-end rumble. Izhaki calls the HPF "the most-used filter in mixing."
+- **Cut narrow, boost wide**: Surgical cuts target problems; broad boosts sound more natural
+- **"If it doesn't need EQ, don't use EQ."** — Michael Stavrou, *Mixing with Your Mind*
+
+---
+
+## Compression
+
+Compression controls **dynamic range** — the difference between the loudest and quietest parts of a signal.
+
+### How It Works
+
+![How Compression Works](diagrams/04-compression.svg)
+
+### The Compression Curve
+
+![The Compression Curve](diagrams/04b-compression-curve.svg)
+
+### Key Parameters
+
+| Parameter | What It Does | Think of It As... |
+|-----------|-------------|-------------------|
+| **Threshold** | Level where compression begins | The "trigger point" |
+| **Ratio** | How much to reduce above threshold | How aggressively it acts |
+| **Attack** | How quickly compression engages | Fast = catches transients; Slow = lets snap through |
+| **Release** | How quickly compression stops | Fast = pumping effect; Slow = smooth |
+| **Makeup Gain** | Boosts output to compensate for reduction | Restoring perceived volume |
+
+### Best Practices
+
+- **Start gentle**: Low ratio (2:1-4:1), moderate threshold, and adjust from there
+- **Listen, don't just look at meters**: Use your ears, not the gain reduction display
+- **Compression is a balance tool**: "From a mix perspective, the primary purpose of compression is to achieve a stable balance." — Mike Senior, *Mixing Secrets*
+- **The fader instability diagnostic**: If you keep adjusting a fader, that track probably needs compression (Senior)
+
+---
+
+## Reverb
+
+Reverb creates a sense of **space and dimension**. "Without reverb, mixes sound flat and two-dimensional." — Izhaki, *Mixing Audio*
+
+### The Sound Stage (after Huber & Moylan)
+
+![The Sound Stage](diagrams/05-sound-stage.svg)
+
+### Key Parameters
+
+| Parameter | What It Does | Tip |
+|-----------|-------------|-----|
+| **Pre-delay** | Gap before reverb begins | Longer = keeps lead element clear and upfront (Owsinski) |
+| **Decay time** | Length of reverb tail | Match to song tempo — reverb is rhythmic (Stavrou) |
+| **Wet/dry** | Blend of effect vs. original | Less is usually more |
+| **Type** | Hall, room, plate, spring, etc. | Each has a character; experiment |
+
+### Best Practices
+
+- **Use sends, not inserts**: Route multiple channels to a shared reverb bus for a cohesive space
+- **Effects should add dimension "without being consciously noticed"** — Owsinski
+- Dry + loud = close/upfront. Wet + quiet = far/ambient. Use this to create depth.
+
+---
+
+## Panning
+
+![Panning — Stereo Placement](diagrams/06-panning.svg)
+
+- **Centre**: Lead, bass, primary rhythm — the foundation
+- **Sides**: Harmony, secondary elements, texture, percussion — width and interest
+- **Always check in mono**: If panned elements disappear in mono, there may be phase issues
+
+---
+
+## Mixing Workflow Summary
+
+![Mixing Workflow](diagrams/07-mixing-workflow.svg)
+
+---
+
+## Key Quotes
+
+> "Forget your compressors and gates... the main way to improve results is the use of thought."
+> — Sir George Martin (foreword to Stavrou, *Mixing with Your Mind*)
+
+> "No measurements or formulae can ever replace the recordist."
+> — Rupert Neve (foreword to Moylan, *The Art of Recording*)
+
+> "A compressor is a compressor — it doesn't matter whether it's a $5000 one or a $150 one. You have to know how compression works to use it."
+> — Tony Visconti (quoted in Senior, *Mixing Secrets*)
+
+> "If I'm having trouble with a mix, probably I'm using too much EQ."
+> — Gus Dudgeon (quoted in Senior, *Mixing Secrets*)
+
+> "Mixing is the last creative step in the recording process."
+> — Ed Seay (quoted in Owsinski, *The Mixing Engineer's Handbook*)
+
+---
+
+## Free Resources
+
+| Resource | What It Is | URL |
+|----------|-----------|-----|
+| **cambridge-mt.com** | 500+ free multitrack sessions for mixing practice | cambridge-mt.com/ms/mtk/ |
+| **SoundGym** | Free gamified ear training (EQ, compression, panning) | soundgym.co |
+| **iZotope Learn Hub** | Free articles and guides on mixing fundamentals | izotope.com/en/learn |
+| **Dan Worrall (YouTube)** | Deep technical tutorials on EQ, compression, stereo | YouTube |
+| **Produce Like A Pro (YouTube)** | Full mixing tutorials with free multitracks | YouTube |
+
+## Recommended Reading
+
+- **Bobby Owsinski** — *The Mixing Engineer's Handbook* (5th ed., 2022) — Accessible framework + engineer interviews
+- **Mike Senior** — *Mixing Secrets for the Small Studio* (2nd ed., 2019) — Practical, budget-friendly, hands-on
+- **Roey Izhaki** — *Mixing Audio* (4th ed., 2024) — Comprehensive technical reference
+- **William Moylan** — *The Art of Recording* (2002/2015) — Deep analytical and aesthetic perspective
+- **David Miles Huber** — *Modern Recording Techniques* (latest ed.) — Broad survey of the full recording chain

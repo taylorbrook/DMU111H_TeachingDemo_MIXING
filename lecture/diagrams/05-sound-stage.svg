@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="depthGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3182CE" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="410" y="35" text-anchor="middle" font-size="22" font-weight="700" fill="#1A202C">The Sound Stage</text>
+  <text x="410" y="55" text-anchor="middle" font-size="13" fill="#718096" font-style="italic">Placing elements in a three-dimensional mix space (after Huber &amp; Moylan)</text>
+
+  <!-- Panning axis label (top) -->
+  <text x="410" y="82" text-anchor="middle" font-size="12" font-weight="600" fill="#4A5568" letter-spacing="2">PANNING (LEFT / RIGHT)</text>
+  <line x1="150" y1="78" x2="310" y2="78" stroke="#CBD5E0" stroke-width="1"/>
+  <polygon points="155,74 145,78 155,82" fill="#CBD5E0"/>
+  <line x1="510" y1="78" x2="670" y2="78" stroke="#CBD5E0" stroke-width="1"/>
+  <polygon points="665,74 675,78 665,82" fill="#CBD5E0"/>
+
+  <!-- Column labels -->
+  <text x="170" y="108" text-anchor="middle" font-size="13" font-weight="600" fill="#4A5568">LEFT</text>
+  <text x="410" y="108" text-anchor="middle" font-size="13" font-weight="600" fill="#4A5568">CENTRE</text>
+  <text x="650" y="108" text-anchor="middle" font-size="13" font-weight="600" fill="#4A5568">RIGHT</text>
+
+  <!-- Main stage rectangle -->
+  <rect x="80" y="118" width="660" height="330" rx="10" fill="url(#depthGrad)" stroke="#CBD5E0" stroke-width="1.5"/>
+
+  <!-- Zone dividers -->
+  <line x1="80" y1="228" x2="740" y2="228" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="80" y1="338" x2="740" y2="338" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- Column dividers (subtle) -->
+  <line x1="290" y1="118" x2="290" y2="448" stroke="#EDF2F7" stroke-width="1" stroke-dasharray="4,6"/>
+  <line x1="530" y1="118" x2="530" y2="448" stroke="#EDF2F7" stroke-width="1" stroke-dasharray="4,6"/>
+
+  <!-- Depth labels (right side) — flipped: far at top, front at bottom -->
+  <text x="775" y="175" text-anchor="middle" font-size="11" font-weight="600" fill="#4A5568" transform="rotate(90 775 175)">FAR (wet, quiet)</text>
+  <text x="775" y="285" text-anchor="middle" font-size="11" font-weight="600" fill="#4A5568" transform="rotate(90 775 285)">MID</text>
+  <text x="775" y="395" text-anchor="middle" font-size="11" font-weight="600" fill="#4A5568" transform="rotate(90 775 395)">FRONT (dry, loud)</text>
+
+  <!-- Depth arrow (right side) -->
+  <line x1="760" y1="130" x2="760" y2="436" stroke="#CBD5E0" stroke-width="1.5"/>
+  <polygon points="756,436 760,446 764,436" fill="#CBD5E0"/>
+  <polygon points="756,130 760,120 764,130" fill="#CBD5E0"/>
+  <text x="756" y="285" text-anchor="middle" font-size="10" fill="#A0AEC0" transform="rotate(90 756 285)">DEPTH (reverb + level)</text>
+
+  <!-- === FAR ZONE (top) === -->
+  <!-- Atmosphere -->
+  <g filter="url(#shadow)">
+    <rect x="350" y="135" width="120" height="24" rx="12" fill="#718096" opacity="0.7"/>
+  </g>
+  <text x="410" y="151" text-anchor="middle" font-size="10" font-weight="600" fill="#FFFFFF">Atmosphere</text>
+
+  <!-- Texture Centre -->
+  <g filter="url(#shadow)">
+    <rect x="365" y="170" width="90" height="24" rx="12" fill="#38A169" opacity="0.8"/>
+  </g>
+  <text x="410" y="186" text-anchor="middle" font-size="10" font-weight="600" fill="#FFFFFF">Texture</text>
+
+  <!-- Texture L -->
+  <g filter="url(#shadow)">
+    <rect x="115" y="158" width="100" height="24" rx="12" fill="#38A169" opacity="0.8"/>
+  </g>
+  <text x="165" y="174" text-anchor="middle" font-size="10" font-weight="600" fill="#FFFFFF">Texture</text>
+
+  <!-- Texture R -->
+  <g filter="url(#shadow)">
+    <rect x="600" y="158" width="100" height="24" rx="12" fill="#38A169" opacity="0.8"/>
+  </g>
+  <text x="650" y="174" text-anchor="middle" font-size="10" font-weight="600" fill="#FFFFFF">Texture</text>
+
+  <!-- === MID ZONE === -->
+  <!-- Harmony L -->
+  <g filter="url(#shadow)">
+    <rect x="105" y="262" width="110" height="26" rx="13" fill="#319795"/>
+  </g>
+  <text x="160" y="280" text-anchor="middle" font-size="10.5" font-weight="600" fill="#FFFFFF">Harmony</text>
+
+  <!-- Secondary / Counter -->
+  <g filter="url(#shadow)">
+    <rect x="352" y="256" width="116" height="26" rx="13" fill="#D53F8C"/>
+  </g>
+  <text x="410" y="274" text-anchor="middle" font-size="10.5" font-weight="600" fill="#FFFFFF">Secondary</text>
+
+  <!-- Supporting element -->
+  <g filter="url(#shadow)">
+    <rect x="340" y="295" width="140" height="24" rx="12" fill="#319795" opacity="0.85"/>
+  </g>
+  <text x="410" y="311" text-anchor="middle" font-size="10" font-weight="600" fill="#FFFFFF">Supporting Element</text>
+
+  <!-- Harmony R -->
+  <g filter="url(#shadow)">
+    <rect x="585" y="268" width="110" height="24" rx="12" fill="#319795"/>
+  </g>
+  <text x="640" y="284" text-anchor="middle" font-size="10.5" font-weight="600" fill="#FFFFFF">Harmony</text>
+
+  <!-- === FRONT ZONE (bottom) === -->
+  <!-- Harmony L -->
+  <g filter="url(#shadow)">
+    <rect x="110" y="358" width="120" height="26" rx="13" fill="#805AD5"/>
+  </g>
+  <text x="170" y="376" text-anchor="middle" font-size="10.5" font-weight="600" fill="#FFFFFF">Harmony (L)</text>
+
+  <!-- Harmony R -->
+  <g filter="url(#shadow)">
+    <rect x="590" y="358" width="120" height="26" rx="13" fill="#805AD5"/>
+  </g>
+  <text x="650" y="376" text-anchor="middle" font-size="10.5" font-weight="600" fill="#FFFFFF">Harmony (R)</text>
+
+  <!-- Rhythm -->
+  <g filter="url(#shadow)">
+    <rect x="355" y="355" width="110" height="28" rx="14" fill="#DD6B20"/>
+  </g>
+  <text x="410" y="374" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">RHYTHM</text>
+
+  <!-- Bass -->
+  <g filter="url(#shadow)">
+    <rect x="370" y="393" width="80" height="22" rx="11" fill="#2B6CB0"/>
+  </g>
+  <text x="410" y="408" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">BASS</text>
+
+  <!-- Lead -->
+  <g filter="url(#shadow)">
+    <rect x="365" y="420" width="90" height="32" rx="16" fill="#E53E3E"/>
+  </g>
+  <text x="410" y="441" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">LEAD</text>
+
+  <!-- Footer -->
+  <text x="410" y="490" text-anchor="middle" font-size="11" fill="#A0AEC0">Dry + loud = close/upfront. Wet + quiet = far/ambient. Panning creates width.</text>
+  <text x="410" y="508" text-anchor="middle" font-size="11" fill="#A0AEC0">Together, level, panning, and reverb create a three-dimensional sound stage.</text>
+</svg>

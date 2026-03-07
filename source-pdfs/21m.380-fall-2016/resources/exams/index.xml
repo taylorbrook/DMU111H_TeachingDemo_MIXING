@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>21M.380 F16 -- Digital audio, mixing consoles &amp; strategies, recording sessions, room acoustics &amp; reverberation</title>
+      <link>/resources/mit21m_380f16_quiz_qz3_soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit21m_380f16_quiz_qz3_soln/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>21M.380 F16 -- Second Quiz (Q2): Editing, cables &amp; patchbays, eqs, stereo recording, dynamics</title>
+      <link>/resources/mit21m_380f16_quiz_qz2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit21m_380f16_quiz_qz2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>21M.380 F16 -- Second quiz (qz2): Editing, cables &amp; patchbays, eqs, stereo recording, dynamics (with solutions)</title>
+      <link>/resources/mit21m_380f16_quiz_qz2_soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit21m_380f16_quiz_qz2_soln/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>21m.380 f16 First Quiz (QZ1): Physics &amp; perception of sound, microphones</title>
+      <link>/resources/mit21m_380f16_quiz_qz1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit21m_380f16_quiz_qz1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>21m.380 f16 Third Quiz (QZ3): Digital audio, mixing consoles &amp; strategies, recording sessions, room acoustics and reverberation</title>
+      <link>/resources/mit21m_380f16_quiz_qz3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit21m_380f16_quiz_qz3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>21M.380 Fall 16 First Quiz (Q1): Physics &amp; perception of sound, microphones (with solutions)</title>
+      <link>/resources/mit21m_380f16_quiz_qz1_soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit21m_380f16_quiz_qz1_soln/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quizzes</title>
+      <link>/pages/quizzes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/quizzes/data.json</guid>
+      <description>&lt;p&gt;This page presents the three quizzes and their solutions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;QUIZZES&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SOLUTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit21m_380f16_quiz_qz1/index.html&#34;&gt;Quiz 1: Physics and perception of sound, microphones (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit21m_380f16_quiz_qz1_soln/index.html&#34;&gt;Quiz 1 solutions (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;13&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit21m_380f16_quiz_qz2/index.html&#34;&gt;Quiz 2: Editing, cables &amp;amp; patchbays, EQs, stereo recording, dynamics (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit21m_380f16_quiz_qz2_soln/index.html&#34;&gt;Quiz 2 solutions (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;21&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit21m_380f16_quiz_qz3/index.html&#34;&gt;Quiz 3: Digital audio, mixing consoles &amp;amp; strategies, recording sessions, room acoustics and reverberation (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit21m_380f16_quiz_qz3_soln/index.html&#34;&gt;Quiz 3 solutions (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>

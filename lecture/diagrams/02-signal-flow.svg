@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 865" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="10" markerHeight="7" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#718096"/>
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="10" markerHeight="7" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#C05621"/>
+    </marker>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="430" y="35" text-anchor="middle" font-size="22" font-weight="700" fill="#1A202C">Signal Flow</text>
+  <text x="430" y="57" text-anchor="middle" font-size="13" fill="#718096" font-style="italic">How audio moves from tracks to your speakers</text>
+
+  <!-- ============================================================ -->
+  <!-- ROUTING DIAGRAM -->
+  <!-- ============================================================ -->
+
+  <!-- Column labels -->
+  <text x="80" y="88" text-anchor="middle" font-size="10" fill="#A0AEC0" font-weight="600" letter-spacing="1">TRACKS</text>
+  <text x="230" y="88" text-anchor="middle" font-size="10" fill="#A0AEC0" font-weight="600" letter-spacing="1">CHANNEL STRIPS</text>
+  <text x="420" y="88" text-anchor="middle" font-size="10" fill="#A0AEC0" font-weight="600" letter-spacing="1">SUBGROUPS</text>
+  <text x="620" y="88" text-anchor="middle" font-size="10" fill="#A0AEC0" font-weight="600" letter-spacing="1">MIX BUS</text>
+
+  <!-- Track 1 -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="115" width="120" height="44" rx="6" fill="#EBF8FF" stroke="#BEE3F8" stroke-width="1.5"/>
+  </g>
+  <text x="80" y="134" text-anchor="middle" font-size="11" fill="#718096">Audio Track</text>
+  <text x="80" y="149" text-anchor="middle" font-size="11" font-weight="600" fill="#2B6CB0">Lead</text>
+
+  <!-- Track 2 -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="175" width="120" height="44" rx="6" fill="#EBF8FF" stroke="#BEE3F8" stroke-width="1.5"/>
+  </g>
+  <text x="80" y="194" text-anchor="middle" font-size="11" fill="#718096">Audio Track</text>
+  <text x="80" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#2B6CB0">Harmony A</text>
+
+  <!-- Track 3 -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="235" width="120" height="44" rx="6" fill="#EBF8FF" stroke="#BEE3F8" stroke-width="1.5"/>
+  </g>
+  <text x="80" y="254" text-anchor="middle" font-size="11" fill="#718096">Audio Track</text>
+  <text x="80" y="269" text-anchor="middle" font-size="11" font-weight="600" fill="#2B6CB0">Harmony B</text>
+
+  <!-- Track 4 -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="295" width="120" height="44" rx="6" fill="#EBF8FF" stroke="#BEE3F8" stroke-width="1.5"/>
+  </g>
+  <text x="80" y="314" text-anchor="middle" font-size="11" fill="#718096">Audio Track</text>
+  <text x="80" y="329" text-anchor="middle" font-size="11" font-weight="600" fill="#2B6CB0">Bass</text>
+
+  <!-- Channel Strips -->
+  <g filter="url(#shadow)">
+    <rect x="180" y="115" width="100" height="44" rx="6" fill="#F0FFF4" stroke="#C6F6D5" stroke-width="1.5"/>
+  </g>
+  <text x="230" y="134" text-anchor="middle" font-size="10" fill="#718096">Channel Strip</text>
+  <text x="230" y="149" text-anchor="middle" font-size="10" font-weight="600" fill="#276749">EQ, Comp, Pan</text>
+
+  <g filter="url(#shadow)">
+    <rect x="180" y="175" width="100" height="44" rx="6" fill="#F0FFF4" stroke="#C6F6D5" stroke-width="1.5"/>
+  </g>
+  <text x="230" y="194" text-anchor="middle" font-size="10" fill="#718096">Channel Strip</text>
+  <text x="230" y="209" text-anchor="middle" font-size="10" font-weight="600" fill="#276749">EQ, Comp, Pan</text>
+
+  <g filter="url(#shadow)">
+    <rect x="180" y="235" width="100" height="44" rx="6" fill="#F0FFF4" stroke="#C6F6D5" stroke-width="1.5"/>
+  </g>
+  <text x="230" y="254" text-anchor="middle" font-size="10" fill="#718096">Channel Strip</text>
+  <text x="230" y="269" text-anchor="middle" font-size="10" font-weight="600" fill="#276749">EQ, Comp, Pan</text>
+
+  <g filter="url(#shadow)">
+    <rect x="180" y="295" width="100" height="44" rx="6" fill="#F0FFF4" stroke="#C6F6D5" stroke-width="1.5"/>
+  </g>
+  <text x="230" y="314" text-anchor="middle" font-size="10" fill="#718096">Channel Strip</text>
+  <text x="230" y="329" text-anchor="middle" font-size="10" font-weight="600" fill="#276749">EQ, Comp, Pan</text>
+
+  <!-- Arrows: Track → Strip -->
+  <line x1="140" y1="137" x2="178" y2="137" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="140" y1="197" x2="178" y2="197" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="140" y1="257" x2="178" y2="257" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="140" y1="317" x2="178" y2="317" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Subgroup: Harmony -->
+  <g filter="url(#shadow)">
+    <rect x="370" y="180" width="100" height="54" rx="6" fill="#FAF5FF" stroke="#E9D8FD" stroke-width="1.5"/>
+  </g>
+  <text x="420" y="200" text-anchor="middle" font-size="10" fill="#718096">Subgroup</text>
+  <text x="420" y="216" text-anchor="middle" font-size="11" font-weight="600" fill="#6B46C1">Harmony Bus</text>
+
+  <!-- Arrows: Harmony A & B strips → Subgroup -->
+  <line x1="280" y1="197" x2="368" y2="200" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="280" y1="257" x2="368" y2="214" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Mix Bus -->
+  <g filter="url(#shadow)">
+    <rect x="560" y="155" width="120" height="150" rx="10" fill="#1A202C" stroke="#2D3748" stroke-width="1.5"/>
+  </g>
+  <text x="620" y="200" text-anchor="middle" font-size="11" fill="#A0AEC0">Mix Bus</text>
+  <text x="620" y="222" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">Master</text>
+  <text x="620" y="244" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">Fader</text>
+  <line x1="580" y1="268" x2="660" y2="268" stroke="#4A5568" stroke-width="1"/>
+  <text x="620" y="286" text-anchor="middle" font-size="10" fill="#718096">Stereo Output</text>
+
+  <!-- Arrow: Lead strip → Mix Bus (bypasses subgroup) -->
+  <path d="M 280,137 L 330,137 L 330,170 L 558,170" stroke="#718096" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="360" y="160" font-size="9" fill="#A0AEC0" font-style="italic">direct to mix bus</text>
+
+  <!-- Arrow: Subgroup → Mix Bus -->
+  <line x1="470" y1="207" x2="558" y2="210" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Arrow: Bass strip → Mix Bus (bypasses subgroup) -->
+  <path d="M 280,317 L 330,317 L 330,290 L 558,290" stroke="#718096" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="360" y="307" font-size="9" fill="#A0AEC0" font-style="italic">direct to mix bus</text>
+
+  <!-- FX Bus (aux sends) -->
+  <g filter="url(#shadow)">
+    <rect x="370" y="350" width="100" height="54" rx="6" fill="#FFFAF0" stroke="#FEEBC8" stroke-width="1.5"/>
+  </g>
+  <text x="420" y="370" text-anchor="middle" font-size="10" fill="#718096">FX Bus (Send)</text>
+  <text x="420" y="386" text-anchor="middle" font-size="11" font-weight="600" fill="#C05621">Reverb</text>
+
+  <!-- Individual aux send taps from each channel strip -->
+  <path d="M 280,150 L 300,150 L 300,377" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.6" fill="none"/>
+  <path d="M 280,210 L 310,210 L 310,377" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.6" fill="none"/>
+  <path d="M 280,270 L 320,270 L 320,377" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.6" fill="none"/>
+  <path d="M 280,330 L 330,330 L 330,377" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.6" fill="none"/>
+  <!-- Merged line into FX bus -->
+  <line x1="300" y1="377" x2="368" y2="377" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.6" marker-end="url(#arrow-orange)"/>
+  <text x="310" y="395" font-size="9" fill="#C05621" font-style="italic">aux sends</text>
+
+  <!-- FX Bus → Mix Bus -->
+  <path d="M 470,377 L 620,377 L 620,307" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.6" fill="none" marker-end="url(#arrow-orange)"/>
+  <text x="540" y="370" font-size="9" fill="#C05621" font-style="italic">return</text>
+
+  <!-- Gain staging annotation -->
+  <rect x="710" y="155" width="130" height="78" rx="6" fill="#FFF5F5" stroke="#FED7D7" stroke-width="1"/>
+  <text x="775" y="175" text-anchor="middle" font-size="10" font-weight="600" fill="#C53030">Gain Staging Rule</text>
+  <text x="775" y="193" text-anchor="middle" font-size="9.5" fill="#718096">Channel faders</text>
+  <text x="775" y="206" text-anchor="middle" font-size="9.5" fill="#718096">below subgroups,</text>
+  <text x="775" y="219" text-anchor="middle" font-size="9.5" fill="#718096">below master fader.</text>
+
+  <!-- ============================================================ -->
+  <!-- CHANNEL STRIP DETAIL -->
+  <!-- ============================================================ -->
+  <line x1="30" y1="430" x2="830" y2="430" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="430" y="460" text-anchor="middle" font-size="16" font-weight="700" fill="#1A202C">Channel Strip Detail</text>
+  <text x="430" y="478" text-anchor="middle" font-size="11" fill="#718096" font-style="italic">The processing chain on each individual channel</text>
+
+  <!-- Outer container -->
+  <g filter="url(#shadow)">
+    <rect x="200" y="496" width="260" height="344" rx="10" fill="#FFFFFF" stroke="#CBD5E0" stroke-width="1.5"/>
+  </g>
+
+  <!-- 1. Input -->
+  <rect x="218" y="504" width="224" height="28" rx="5" fill="#EBF8FF"/>
+  <text x="330" y="523" text-anchor="middle" font-size="12" font-weight="600" fill="#2B6CB0">Input</text>
+
+  <!-- Arrow 1 → 2 -->
+  <line x1="330" y1="532" x2="330" y2="556" stroke="#CBD5E0" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 2. Insert FX -->
+  <rect x="218" y="558" width="224" height="38" rx="5" fill="#F0FFF4"/>
+  <text x="330" y="574" text-anchor="middle" font-size="12" font-weight="600" fill="#276749">Insert FX (EQ, Compressor)</text>
+  <text x="330" y="588" text-anchor="middle" font-size="9.5" fill="#718096">Per-channel processing</text>
+
+  <!-- Left annotation: Inserts -->
+  <text x="195" y="572" text-anchor="end" font-size="10" fill="#718096">Inserts:</text>
+  <text x="195" y="585" text-anchor="end" font-size="10" fill="#718096">unique to channel</text>
+  <line x1="199" y1="577" x2="216" y2="577" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Line 2 → 3 with Pre-fader Send tap -->
+  <line x1="330" y1="596" x2="330" y2="638" stroke="#CBD5E0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="330" y1="617" x2="480" y2="617" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#arrow-orange)"/>
+  <text x="490" y="613" font-size="10" font-weight="600" fill="#C05621">Pre-fader Send</text>
+  <text x="490" y="626" font-size="9" fill="#718096">Level-independent</text>
+  <text x="490" y="638" font-size="9" fill="#718096">(cue / headphone mixes)</text>
+
+  <!-- 3. Fader -->
+  <rect x="218" y="640" width="224" height="38" rx="5" fill="#FFF5F5"/>
+  <text x="330" y="656" text-anchor="middle" font-size="12" font-weight="600" fill="#C53030">Fader</text>
+  <text x="330" y="670" text-anchor="middle" font-size="9.5" fill="#718096">Channel level control</text>
+
+  <!-- Line 3 → 4 with Post-fader Send tap -->
+  <line x1="330" y1="678" x2="330" y2="720" stroke="#CBD5E0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="330" y1="699" x2="480" y2="699" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#arrow-orange)"/>
+  <text x="490" y="695" font-size="10" font-weight="600" fill="#C05621">Post-fader Send</text>
+  <text x="490" y="708" font-size="9" fill="#718096">Most common for effects</text>
+  <text x="490" y="720" font-size="9" fill="#718096">(reverb, delay)</text>
+
+  <!-- 4. Pan -->
+  <rect x="218" y="722" width="224" height="38" rx="5" fill="#FAF5FF"/>
+  <text x="330" y="738" text-anchor="middle" font-size="12" font-weight="600" fill="#6B46C1">Pan</text>
+  <text x="330" y="752" text-anchor="middle" font-size="9.5" fill="#718096">Stereo placement</text>
+
+  <!-- Line 4 → 5 with Post-pan Send tap -->
+  <line x1="330" y1="760" x2="330" y2="802" stroke="#CBD5E0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="330" y1="781" x2="480" y2="781" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#arrow-orange)"/>
+  <text x="490" y="777" font-size="10" font-weight="600" fill="#C05621">Post-pan Send</text>
+  <text x="490" y="790" font-size="9" fill="#718096">Preserves stereo position</text>
+  <text x="490" y="802" font-size="9" fill="#718096">in the send signal</text>
+
+  <!-- 5. Output to Bus -->
+  <rect x="218" y="804" width="224" height="30" rx="5" fill="#EDF2F7"/>
+  <text x="330" y="824" text-anchor="middle" font-size="12" font-weight="600" fill="#4A5568">Output to Bus</text>
+
+  <!-- Output annotation -->
+  <text x="330" y="855" text-anchor="middle" font-size="9" fill="#A0AEC0">Routes to subgroup bus or directly to mix bus</text>
+</svg>

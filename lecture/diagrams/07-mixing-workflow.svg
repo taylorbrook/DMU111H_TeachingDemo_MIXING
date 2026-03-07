@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="0" dy="1" stdDeviation="3" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="410" y="35" text-anchor="middle" font-size="22" font-weight="700" fill="#1A202C">Mixing Workflow</text>
+  <text x="410" y="55" text-anchor="middle" font-size="13" fill="#718096" font-style="italic">A practical step-by-step approach</text>
+
+  <!-- Row 1: Steps 1-3 -->
+  <!-- Step 1 -->
+  <g filter="url(#shadow)">
+    <rect x="30" y="80" width="230" height="115" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="60" cy="104" r="14" fill="#3182CE"/>
+  <text x="60" y="109" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="82" y="109" font-size="15" font-weight="700" fill="#1A202C">Organize</text>
+  <text x="48" y="132" font-size="11.5" fill="#4A5568">Name, colour-code, and group</text>
+  <text x="48" y="148" font-size="11.5" fill="#4A5568">your tracks. Route to busses.</text>
+  <text x="48" y="168" font-size="10" fill="#A0AEC0" font-style="italic">Set yourself up for clarity.</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="262" y1="137" x2="290" y2="137" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="286,132 296,137 286,142" fill="#CBD5E0"/>
+
+  <!-- Step 2 -->
+  <g filter="url(#shadow)">
+    <rect x="295" y="80" width="230" height="115" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="325" cy="104" r="14" fill="#3182CE"/>
+  <text x="325" y="109" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="347" y="109" font-size="15" font-weight="700" fill="#1A202C">Gain Stage</text>
+  <text x="313" y="132" font-size="11.5" fill="#4A5568">Set healthy input levels at</text>
+  <text x="313" y="148" font-size="11.5" fill="#4A5568">every stage of the signal chain.</text>
+  <text x="313" y="168" font-size="10" fill="#A0AEC0" font-style="italic">No clipping, plenty of headroom.</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="527" y1="137" x2="555" y2="137" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="551,132 561,137 551,142" fill="#CBD5E0"/>
+
+  <!-- Step 3 -->
+  <g filter="url(#shadow)">
+    <rect x="560" y="80" width="230" height="115" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="590" cy="104" r="14" fill="#3182CE"/>
+  <text x="590" y="109" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="612" y="109" font-size="15" font-weight="700" fill="#1A202C">Static Mix</text>
+  <text x="578" y="132" font-size="11.5" fill="#4A5568">Faders + pan only. No plugins.</text>
+  <text x="578" y="148" font-size="11.5" fill="#4A5568">Get the balance right first.</text>
+  <text x="578" y="168" font-size="10" fill="#A0AEC0" font-style="italic">This is the foundation of your mix.</text>
+
+  <!-- Arrow 3→4 (down-left) -->
+  <path d="M 675,197 L 675,215 L 145,215 L 145,225" stroke="#CBD5E0" stroke-width="2" fill="none"/>
+  <polygon points="141,221 145,231 149,221" fill="#CBD5E0"/>
+
+  <!-- Row 2: Steps 4-6 -->
+  <!-- Step 4 -->
+  <g filter="url(#shadow)">
+    <rect x="30" y="230" width="230" height="115" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="60" cy="254" r="14" fill="#805AD5"/>
+  <text x="60" y="259" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="82" y="259" font-size="15" font-weight="700" fill="#1A202C">EQ</text>
+  <text x="48" y="282" font-size="11.5" fill="#4A5568">Clean up problem frequencies.</text>
+  <text x="48" y="298" font-size="11.5" fill="#4A5568">HPF first, then cuts before boosts.</text>
+  <text x="48" y="318" font-size="10" fill="#A0AEC0" font-style="italic">Carve space for each element.</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="262" y1="287" x2="290" y2="287" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="286,282 296,287 286,292" fill="#CBD5E0"/>
+
+  <!-- Step 5 -->
+  <g filter="url(#shadow)">
+    <rect x="295" y="230" width="230" height="115" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="325" cy="254" r="14" fill="#805AD5"/>
+  <text x="325" y="259" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">5</text>
+  <text x="347" y="259" font-size="15" font-weight="700" fill="#1A202C">Compression</text>
+  <text x="313" y="282" font-size="11.5" fill="#4A5568">Control dynamics. Stabilize</text>
+  <text x="313" y="298" font-size="11.5" fill="#4A5568">fader balance across the mix.</text>
+  <text x="313" y="318" font-size="10" fill="#A0AEC0" font-style="italic">Fader unstable? Compress that track.</text>
+
+  <!-- Arrow 5→6 -->
+  <line x1="527" y1="287" x2="555" y2="287" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="551,282 561,287 551,292" fill="#CBD5E0"/>
+
+  <!-- Step 6 -->
+  <g filter="url(#shadow)">
+    <rect x="560" y="230" width="230" height="115" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="590" cy="254" r="14" fill="#805AD5"/>
+  <text x="590" y="259" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">6</text>
+  <text x="612" y="259" font-size="15" font-weight="700" fill="#1A202C">Reverb / FX</text>
+  <text x="578" y="282" font-size="11.5" fill="#4A5568">Create space and depth using</text>
+  <text x="578" y="298" font-size="11.5" fill="#4A5568">sends. Less is usually more.</text>
+  <text x="578" y="318" font-size="10" fill="#A0AEC0" font-style="italic">Dimension without distraction.</text>
+
+  <!-- Arrow 6→7 (down-left) -->
+  <path d="M 675,347 L 675,365 L 145,365 L 145,375" stroke="#CBD5E0" stroke-width="2" fill="none"/>
+  <polygon points="141,371 145,381 149,371" fill="#CBD5E0"/>
+
+  <!-- Row 3: Steps 7-9 -->
+  <!-- Step 7 -->
+  <g filter="url(#shadow)">
+    <rect x="30" y="380" width="230" height="115" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="60" cy="404" r="14" fill="#38A169"/>
+  <text x="60" y="409" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">7</text>
+  <text x="82" y="409" font-size="15" font-weight="700" fill="#1A202C">Refine</text>
+  <text x="48" y="432" font-size="11.5" fill="#4A5568">Revisit balance. Small tweaks.</text>
+  <text x="48" y="448" font-size="11.5" fill="#4A5568">"Lots of small mix tweaks."</text>
+  <text x="48" y="468" font-size="10" fill="#A0AEC0" font-style="italic">— Mike Senior</text>
+
+  <!-- Arrow 7→8 -->
+  <line x1="262" y1="437" x2="290" y2="437" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="286,432 296,437 286,442" fill="#CBD5E0"/>
+
+  <!-- Step 8 -->
+  <g filter="url(#shadow)">
+    <rect x="295" y="380" width="230" height="115" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="325" cy="404" r="14" fill="#38A169"/>
+  <text x="325" y="409" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">8</text>
+  <text x="347" y="409" font-size="15" font-weight="700" fill="#1A202C">Check</text>
+  <text x="313" y="432" font-size="11.5" fill="#4A5568">Reference tracks. Mono check.</text>
+  <text x="313" y="448" font-size="11.5" fill="#4A5568">Low volume. Different systems.</text>
+  <text x="313" y="468" font-size="10" fill="#A0AEC0" font-style="italic">Take breaks — fresh ears matter.</text>
+
+  <!-- Arrow 8→9 -->
+  <line x1="527" y1="437" x2="555" y2="437" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="551,432 561,437 551,442" fill="#CBD5E0"/>
+
+  <!-- Step 9 -->
+  <g filter="url(#shadow)">
+    <rect x="560" y="380" width="230" height="115" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="590" cy="404" r="14" fill="#38A169"/>
+  <text x="590" y="409" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">9</text>
+  <text x="612" y="409" font-size="15" font-weight="700" fill="#1A202C">Automate</text>
+  <text x="578" y="432" font-size="11.5" fill="#4A5568">Volume rides, effect sends,</text>
+  <text x="578" y="448" font-size="11.5" fill="#4A5568">filter sweeps. Make it breathe.</text>
+  <text x="578" y="468" font-size="10" fill="#A0AEC0" font-style="italic">The final creative layer.</text>
+
+  <!-- Phase labels on left -->
+  <text x="15" y="140" font-size="10" font-weight="700" fill="#3182CE" transform="rotate(-90 15 140)" text-anchor="middle" letter-spacing="1">SETUP</text>
+  <text x="15" y="290" font-size="10" font-weight="700" fill="#805AD5" transform="rotate(-90 15 290)" text-anchor="middle" letter-spacing="1">PROCESS</text>
+  <text x="15" y="440" font-size="10" font-weight="700" fill="#38A169" transform="rotate(-90 15 440)" text-anchor="middle" letter-spacing="1">POLISH</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="410" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1A202C">The Six Elements of a Mix</text>
+  <text x="410" y="60" text-anchor="middle" font-size="13" fill="#718096" font-style="italic">Bobby Owsinski — The Mixing Engineer's Handbook</text>
+
+  <!-- Row 1 -->
+  <!-- Balance -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="85" width="250" height="140" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="20" y="85" width="6" height="140" rx="3" fill="#3182CE"/>
+  </g>
+  <text x="42" y="113" font-size="11" font-weight="700" fill="#3182CE" letter-spacing="1">01</text>
+  <text x="42" y="135" font-size="17" font-weight="700" fill="#1A202C">Balance</text>
+  <text x="42" y="158" font-size="12.5" fill="#4A5568">Relative volume of each</text>
+  <text x="42" y="175" font-size="12.5" fill="#4A5568">element. The foundation of</text>
+  <text x="42" y="192" font-size="12.5" fill="#4A5568">every mix decision.</text>
+
+  <!-- Panorama -->
+  <g filter="url(#shadow)">
+    <rect x="285" y="85" width="250" height="140" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="285" y="85" width="6" height="140" rx="3" fill="#319795"/>
+  </g>
+  <text x="307" y="113" font-size="11" font-weight="700" fill="#319795" letter-spacing="1">02</text>
+  <text x="307" y="135" font-size="17" font-weight="700" fill="#1A202C">Panorama</text>
+  <text x="307" y="158" font-size="12.5" fill="#4A5568">Left-to-right placement</text>
+  <text x="307" y="175" font-size="12.5" fill="#4A5568">in the stereo field. Creates</text>
+  <text x="307" y="192" font-size="12.5" fill="#4A5568">width and separation.</text>
+
+  <!-- Frequency -->
+  <g filter="url(#shadow)">
+    <rect x="550" y="85" width="250" height="140" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="550" y="85" width="6" height="140" rx="3" fill="#805AD5"/>
+  </g>
+  <text x="572" y="113" font-size="11" font-weight="700" fill="#805AD5" letter-spacing="1">03</text>
+  <text x="572" y="135" font-size="17" font-weight="700" fill="#1A202C">Frequency</text>
+  <text x="572" y="158" font-size="12.5" fill="#4A5568">Tonal shaping through EQ.</text>
+  <text x="572" y="175" font-size="12.5" fill="#4A5568">Carving space so each</text>
+  <text x="572" y="192" font-size="12.5" fill="#4A5568">element has its place.</text>
+
+  <!-- Row 2 -->
+  <!-- Dynamics -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="245" width="250" height="140" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="20" y="245" width="6" height="140" rx="3" fill="#DD6B20"/>
+  </g>
+  <text x="42" y="273" font-size="11" font-weight="700" fill="#DD6B20" letter-spacing="1">04</text>
+  <text x="42" y="295" font-size="17" font-weight="700" fill="#1A202C">Dynamics</text>
+  <text x="42" y="318" font-size="12.5" fill="#4A5568">Controlling the loudness</text>
+  <text x="42" y="335" font-size="12.5" fill="#4A5568">range. Compression, limiting,</text>
+  <text x="42" y="352" font-size="12.5" fill="#4A5568">and gain automation.</text>
+
+  <!-- Dimension -->
+  <g filter="url(#shadow)">
+    <rect x="285" y="245" width="250" height="140" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="285" y="245" width="6" height="140" rx="3" fill="#38A169"/>
+  </g>
+  <text x="307" y="273" font-size="11" font-weight="700" fill="#38A169" letter-spacing="1">05</text>
+  <text x="307" y="295" font-size="17" font-weight="700" fill="#1A202C">Dimension</text>
+  <text x="307" y="318" font-size="12.5" fill="#4A5568">Depth and space created</text>
+  <text x="307" y="335" font-size="12.5" fill="#4A5568">by reverb, delay, and spatial</text>
+  <text x="307" y="352" font-size="12.5" fill="#4A5568">processing.</text>
+
+  <!-- Interest -->
+  <g filter="url(#shadow)">
+    <rect x="550" y="245" width="250" height="140" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="550" y="245" width="6" height="140" rx="3" fill="#E53E3E"/>
+  </g>
+  <text x="572" y="273" font-size="11" font-weight="700" fill="#E53E3E" letter-spacing="1">06</text>
+  <text x="572" y="295" font-size="17" font-weight="700" fill="#1A202C">Interest</text>
+  <text x="572" y="318" font-size="12.5" fill="#4A5568">What holds the listener's</text>
+  <text x="572" y="335" font-size="12.5" fill="#4A5568">attention. Arrangement,</text>
+  <text x="572" y="352" font-size="12.5" fill="#4A5568">motion, contrast, surprise.</text>
+
+  <!-- Footer -->
+  <line x1="20" y1="410" x2="800" y2="410" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="410" y="432" text-anchor="middle" font-size="11" fill="#A0AEC0">Every mixing decision maps to one or more of these six elements.</text>
+</svg>

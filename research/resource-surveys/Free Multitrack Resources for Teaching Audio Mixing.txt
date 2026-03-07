@@ -1,0 +1,579 @@
+FREE MULTITRACK MIX SESSIONS AND STEMS FOR TEACHING AUDIO MIXING
+==================================================================
+Compiled: March 2026
+
+This document catalogs open-access and free multitrack resources suitable
+for teaching audio mixing at the undergraduate level.
+
+
+================================================================================
+SECTION 1: DEDICATED FREE MULTITRACK LIBRARIES
+================================================================================
+
+1.1 CAMBRIDGE-MT / MIXING SECRETS FREE MULTITRACK DOWNLOAD LIBRARY
+    URL: https://cambridge-mt.com/ms3/mtk/
+    Run by: Mike Senior (Reviews Editor, Sound On Sound magazine;
+            author of "Mixing Secrets For The Small Studio")
+
+    What's available:
+    - 500+ full-length multitrack projects across a wide range of genres
+    - Genres include pop, rock, country, folk, hip hop, R&B, singer-songwriter,
+      classical, electronica, jazz, world, metal, punk, and more
+    - Each project is a ZIP archive of uncompressed WAV files
+      (24-bit or 16-bit, 44.1 kHz)
+    - Audio is provided "raw" -- no effects or processing beyond what was
+      printed during tracking/editing
+    - Many projects also have "Edited Excerpt" quick-download versions
+      (typically the biggest chorus) -- well suited for classroom assignments
+    - "Suggestions for Newbies" page curates less-challenging projects:
+      https://cambridge-mt.com/ms3/mtk-newbies/
+    - Also offers a "Recording Secrets" backing-stems library:
+      https://cambridge-mt.com/rs1/bkg/
+
+    Licensing:
+    - Free for educational use and personal mixing practice
+    - Not for commercial use without permission from copyright holders
+
+    Educational suitability: EXCELLENT
+    - Explicitly designed for music-technology students and educators
+    - Bite-sized excerpts are ideal for in-class mixing exercises
+    - Segregated by genre for easy assignment design
+    - The single most comprehensive free resource available
+
+
+1.2 TELEFUNKEN "LIVE FROM THE LAB" MULTITRACKS
+    URL: https://www.telefunken-elektroakustik.com/multitracks/
+         https://www.telefunken-elektroakustik.com/livefromthelab/
+
+    What's available:
+    - Multitrack sessions from Telefunken's "Live from the Lab" video series
+    - Recorded at Telefunken's facility in South Windsor, CT
+    - Exclusively tracked using Telefunken microphones
+    - Sessions are live performances (musicians playing together), so tracks
+      include realistic mic bleed -- excellent for teaching about live-recording
+      mixing challenges
+    - Multiple seasons of content across varied genres
+    - WAV format, 24-bit / 48 kHz
+    - Download links appear below each performance video
+
+    Licensing:
+    - Free for home studio use and educational purposes ONLY
+    - No commercial use permitted
+
+    Educational suitability: EXCELLENT
+    - Real-world live recordings with mic bleed provide practical mixing challenges
+    - Good for teaching about live recording vs. studio isolation
+    - High recording quality with professional equipment
+
+
+1.3 LEWITT AUDIO FREE MULTITRACKS
+    URL: https://www.lewitt-audio.com/mix
+         https://my.lewitt-audio.com/downloads
+
+    What's available:
+    - Multitrack sessions from mixing contests and recording collaborations
+    - Artists include Marina & the Kats (28-track neo-swing session),
+      Saint Agnes (live rock recording from Metropolis Studios),
+      Spitting Ibex, Louis Berry, and others
+    - Contest entry periods have ended, but multitracks remain available
+      for download and practice
+
+    Licensing:
+    - Free for personal and educational use
+
+    Educational suitability: GOOD
+    - High-quality recordings from professional studios
+    - Variety of genres and session sizes
+
+
+1.4 PRODUCE LIKE A PRO (WARREN HUART)
+    URL: https://producelikeapro.com/blog/free-multitracks-hone-mixing-skills/
+         https://producelikeapro.com/blog/category/multitracks/
+
+    What's available:
+    - Some free multitracks available on the blog
+    - The full Academy (subscription) offers 200+ sets of multitracks
+      with mixing courses from industry professionals
+    - Free mixing course with multitracks from Warren Huart available
+    - WAV format
+
+    Licensing:
+    - Free multitracks can be mixed and used on personal resume
+    - Full library requires subscription
+
+    Educational suitability: GOOD (free content); EXCELLENT (with subscription)
+
+
+1.5 TOSKY RECORDS EDUCATIONAL RESOURCES
+    URL: https://toskyrecords.com/educational-resources/
+
+    What's available:
+    - Free multitrack project: "I May Be Wrong" by Marco Guidolotti Quartet
+      (jazz, from the album 'S Wonderful, 2013)
+    - 1.3 GB ZIP file, high-quality audio, compatible with Pro Tools and
+      other DAWs
+    - Plans to expand with more multitracks, MIDI files, and music sheets
+
+    Licensing:
+    - Strictly for educational and practice purposes
+    - Copyright held by Tosky Records
+
+    Educational suitability: GOOD
+    - Jazz quartet session is great for teaching acoustic/jazz mixing
+    - Pro Tools compatible
+
+
+1.6 MIX-OFF
+    URL: https://www.mix-off.com/
+
+    What's available:
+    - Community-driven platform where members upload multitrack sessions
+    - No membership required to download
+    - Users can submit their own multitracks and participate in mix-offs
+    - Discussion forums for technique sharing
+
+    Licensing:
+    - Varies by contributor
+
+    Educational suitability: GOOD
+    - Community feedback element is valuable for learning
+
+
+1.7 AUDIOSPECTRA
+    URL: https://audiospectra.net/multitracks-for-mixing/
+
+    What's available:
+    - Curated list of free multitrack downloads from various sources
+    - Original multitrack offerings from contributing artists
+    - WAV format
+
+    Licensing:
+    - Educational use only
+
+    Educational suitability: MODERATE
+
+
+================================================================================
+SECTION 2: ACADEMIC / RESEARCH DATASETS
+================================================================================
+
+2.1 MUSDB18 / MUSDB18-HQ
+    URL: https://sigsep.github.io/datasets/musdb.html
+    Download: https://zenodo.org/records/1117372 (MUSDB18)
+              https://zenodo.org/records/3338373 (MUSDB18-HQ)
+
+    What's available:
+    - 150 full-length music tracks (~10 hours total)
+    - Split: 100 training / 50 testing
+    - 4 isolated stems per track: drums, bass, vocals, other
+    - MUSDB18: Native Instruments STEMS format (.mp4), AAC @256kbps,
+      stereo, 44.1 kHz
+    - MUSDB18-HQ: Uncompressed WAV files, stereo, 44.1 kHz (22.7 GB)
+    - Compiled from DSD100, MedleyDB, NI stems pack, and other sources
+    - Multiple genres
+
+    Licensing:
+    - Academic use only
+    - Many tracks under CC BY-NC-SA license
+    - Access requires permission request on Zenodo
+
+    Educational suitability: GOOD
+    - Standard benchmark dataset in source separation research
+    - Only 4 stems (not full multitracks), which limits mixing exercises
+      but is useful for teaching about stems/submixes
+
+
+2.2 MedleyDB / MedleyDB 2.0
+    URL: https://medleydb.weebly.com/
+    Download: https://zenodo.org/record/1649325 (MedleyDB)
+              https://zenodo.org/record/1715175 (MedleyDB 2.0)
+
+    What's available:
+    - MedleyDB 1.0: 122 multitracks
+    - MedleyDB 2.0: 74 additional multitracks (196 total)
+    - Full-length tracks (3-5 minutes), ~7+ hours total
+    - Includes: mix + processed stems + raw audio + metadata
+    - WAV files at 44.1 kHz, 16-bit
+    - Melody f0 annotations (108 tracks), instrument activations,
+      genre labels
+    - 9 genres: Singer/Songwriter, Classical, Rock, World/Folk, Fusion,
+      Jazz, Pop, Musical Theatre, Rap
+    - 52 instrumental tracks + 70 vocal tracks
+
+    Licensing:
+    - Academic use; permission request required on Zenodo
+
+    Educational suitability: EXCELLENT
+    - True multitracks with raw audio (not just stems)
+    - Wide genre coverage
+    - Rich metadata and annotations for analysis exercises
+
+
+2.3 MoisesDB
+    URL: https://github.com/moises-ai/moises-db
+    Paper: https://arxiv.org/abs/2307.15913
+    Download: https://huggingface.co/datasets/wearemusicai/moisesdb
+
+    What's available:
+    - 240 tracks from 45 artists across 12 genres
+    - Beyond 4-stem separation: 3-10 stems per track
+    - Two-level hierarchical taxonomy of stems (11 top-level categories
+      with sub-stems)
+    - Includes vocals, drums, bass, guitar, keys, wind instruments, etc.
+    - Python package for metadata parsing, stem construction, mixing, I/O
+
+    Licensing:
+    - CC BY-NC-SA 4.0 (Creative Commons Attribution-NonCommercial-
+      ShareAlike 4.0 International)
+
+    Educational suitability: EXCELLENT
+    - More granular stem separation than MUSDB18
+    - Large and diverse dataset
+    - Well-documented with Python tools for programmatic access
+    - Suitable for both mixing education and computational research
+
+
+2.4 THE OPEN MULTITRACK TESTBED
+    URL: http://multitrack.eecs.qmul.ac.uk/
+    Origin: Queen Mary University of London, Centre for Digital Music
+
+    What's available:
+    - Online repository of multitrack audio, mixes, and DAW files
+    - Semantic database with rich metadata (search by genre, instrumentation,
+      recording conditions, etc.)
+    - Includes raw tracks, stems, multiple mixes per song, and DAW session files
+    - Classical music batch downloads:
+      * J.S. Bach: 5 multitracks, 86 tracks
+      * Beethoven: 2 multitracks, 18 tracks
+      * Ysaye and Paganini: 5 multitracks, 118 tracks
+    - Indexes content from MedleyDB and other sources
+
+    Licensing:
+    - Creative Commons licensed content (some allowing commercial use)
+    - Contributions from educational institutions and individuals
+
+    Educational suitability: EXCELLENT
+    - Unique: provides DAW session files, not just raw audio
+    - Multiple mixes of the same song enable comparative analysis
+    - Semantic search for finding material matching specific teaching needs
+    - Classical music multitracks are rare and valuable for teaching
+
+
+2.5 SLAKH2100 (SYNTHESIZED LAKH DATASET)
+    URL: http://www.slakh.com/
+
+    What's available:
+    - 2100 automatically mixed multi-track audio files with aligned MIDI
+    - Synthesized from Lakh MIDI Dataset using professional-grade
+      virtual instruments
+    - 187 instrument patches in 34 classes
+    - 145 hours of mixture data
+    - Larger than all other open multi-track source separation datasets combined
+
+    Licensing:
+    - Academic research use
+
+    Educational suitability: MODERATE
+    - Synthesized (not real recordings), so less suitable for teaching
+      traditional mixing
+    - Valuable for teaching about MIDI, virtual instruments, and
+      computational approaches to mixing
+
+
+2.6 MIXING SECRETS DATASET (ACADEMIC VERSION)
+    URL: https://github.com/felixCheungcheung/mixing_secrets_v2
+
+    What's available:
+    - Academic dataset derived from Cambridge-MT multitrack library
+    - Structured for instrument recognition and source separation research
+    - Includes metadata annotations
+
+    Licensing:
+    - Academic use
+
+    Educational suitability: GOOD
+    - Bridges educational mixing practice and research applications
+
+
+================================================================================
+SECTION 3: DAW-SPECIFIC SESSION FILES
+================================================================================
+
+3.1 VOYAGE AUDIO SESSION DOWNLOADS
+    URL: https://voyage.audio/session-downloads/
+
+    What's available:
+    - Free Pro Tools and Reaper session downloads
+    - Raw audio recorded with Spatial Mic Dante and USB
+    - Designed for spatial/immersive audio exploration
+    - Note: Requires Spatial Mic Converter plugin
+
+    Licensing: Free for educational use
+
+    Educational suitability: NICHE
+    - Specifically for spatial audio / immersive audio mixing instruction
+
+
+3.2 GENERAL NOTE ON DAW COMPATIBILITY
+    Most free multitrack resources provide raw WAV files in ZIP archives,
+    which can be imported into ANY DAW (Pro Tools, Logic Pro, Ableton Live,
+    Reaper, Studio One, Cubase, FL Studio, etc.). This is actually
+    preferable for teaching, as it is DAW-agnostic and students can use
+    whatever software they have access to.
+
+
+================================================================================
+SECTION 4: COMMUNITY RESOURCES AND FORUMS
+================================================================================
+
+4.1 COCKOS / REAPER FORUM
+    URL: https://forum.cockos.com/showthread.php?t=89245
+
+    What's available:
+    - Long-running thread: "50 Free Multitrack Downloads for Mixing Practice"
+    - Community-contributed links to multitrack resources
+    - REAPER-focused but files work in any DAW
+
+    Educational suitability: GOOD (curated link collection)
+
+
+4.2 ULTIMATE METAL FORUM
+    URL: https://ultimatemetal.com/threads/free-multitracks-dis-download-list.1514051/
+
+    What's available:
+    - Comprehensive list of free metal/rock multitracks and DI tracks
+    - Includes: guitar DIs, bass DIs, amped guitar/bass tracks,
+      drum recordings, MIDI drums, vocal tracks
+    - Sourced from the forum community, YouTube, Cambridge-MT, and blogs
+    - Good abbreviation system for track types
+
+    Licensing:
+    - Varies by contributor; not for use in videos unless stated
+
+    Educational suitability: GOOD
+    - Especially for metal/rock mixing courses
+    - DI tracks are excellent for teaching about reamping
+
+
+4.3 KVR AUDIO FORUM
+    URL: https://www.kvraudio.com/forum/viewtopic.php?t=330371
+
+    What's available:
+    - Community thread with links to free multitracks
+    - User-contributed resources
+
+    Educational suitability: MODERATE
+
+
+4.4 GEARSPACE (FORMERLY GEARSLUTZ)
+    URL: https://gearspace.com/board/low-end-theory/655581-50-free-multitrack-download-mixing-practice.html
+
+    What's available:
+    - Long-running thread with compiled multitrack download links
+    - Discussion of mixing techniques alongside resources
+
+    Educational suitability: GOOD
+
+
+4.5 SOUND ON SOUND FORUM
+    URL: https://www.soundonsound.com/forum/viewtopic.php?t=26779
+
+    What's available:
+    - "Library of Free Multitrack Downloads: Update" thread
+    - Curated by the SOS community
+
+    Educational suitability: GOOD
+
+
+4.6 SONGSTEMS.NET
+    URL: https://songstems.net/
+
+    What's available:
+    - Community platform for sharing remix packs, stems, multitracks,
+      acapellas, and instrumentals
+    - Browsable by genre (EDM, Techno, Dance, Soundtrack, etc.)
+    - Users can upload, download, discuss, and request content
+
+    Licensing:
+    - Varies by contributor; some content may have unclear provenance
+
+    Educational suitability: MODERATE
+    - Good for electronic/dance genres
+    - Verify licensing before classroom use
+
+
+4.7 REDDIT COMMUNITIES
+    - r/mixingmastering
+    - r/audioengineering
+    - r/WeAreTheMusicMakers
+
+    What's available:
+    - Regular posts sharing and requesting multitrack resources
+    - Community feedback on mixes
+    - Links to many of the resources listed in this document
+
+    Educational suitability: MODERATE (supplementary resource)
+
+
+================================================================================
+SECTION 5: AGGREGATOR / GUIDE SITES
+================================================================================
+
+These sites compile and organize links to free multitracks from many sources:
+
+5.1 BEHIND THE SPEAKERS (Jason Moss)
+    URL: https://behindthespeakers.com/300-free-multitracks/
+         https://behindthespeakers.com/best-places-free-multitracks/
+    - 300+ free multitracks cataloged with source links
+
+5.2 SUBAQUEOUS MUSIC
+    URL: https://www.subaqueousmusic.com/400-free-multitracks-to-level-up-you-mixing-skills/
+    - 400+ free multitracks compiled from multiple sources
+    - Also offers free Ableton Live templates
+
+5.3 THE PRO AUDIO FILES
+    URL: https://theproaudiofiles.com/multitracks-for-mixing/
+    - "5 Places to Download Multitracks to Practice Mixing" guide
+
+5.4 SIMPLY MIXING
+    URL: https://www.simplymixing.com/blog/free-multitracks
+    - Guide to downloading free multitracks
+
+5.5 MIDI AUDIO EXPERT
+    URL: https://midi-audio-expert.com/free-multitracks/
+    - 32 free multitracks from Grammy-nominated artists
+      (requires newsletter signup)
+
+
+================================================================================
+SECTION 6: SUBSCRIPTION / PAID SERVICES WITH FREE TIERS
+================================================================================
+
+These are primarily paid but worth noting for their educational value:
+
+6.1 NAIL THE MIX
+    URL: https://www.nailthemix.com/
+    - Monthly multitrack from real album releases (metal/rock focus)
+    - 6-8 hour mixing class from the original producer
+    - First month: $1
+    - WAV format
+
+6.2 PUREMIX
+    URL: https://www.puremix.com/downloads
+    - Professional mixing tutorials with multitracks
+    - Some free content available (e.g., David Crosby track)
+    - Subscription for full access
+
+6.3 DUELING MIXES (Joe Gilder & Graham Cochrane)
+    URL: https://theproaudiofiles.com/dueling-mixes-joe-gilder-graham-cochrane/
+    - Monthly multitrack with two competing reference mixes
+    - Video walkthroughs of mixing decisions
+    - Subscription required
+
+6.4 WEATHERVANE MUSIC / SHAKING THROUGH
+    URL: https://weathervanemusic.org/membership
+    - Documentary recording series (2009-2019)
+    - Professional recordings with download access
+    - Membership required (starter pack available)
+
+6.5 HOME STUDIO CORNER / MIX TOGETHER (Joe Gilder)
+    - Sends out multitracks for training
+    - Includes video walkthrough of mixing process
+
+
+================================================================================
+SECTION 7: WORSHIP / CHURCH MUSIC MULTITRACKS
+================================================================================
+
+(Primarily designed for live worship use, but the multitrack format
+makes them useful for mixing practice in that genre)
+
+7.1 MxU / THRIVE WORSHIP
+    URL: https://getmxu.com/resources/free-multitracks
+    - Free worship multitracks
+
+7.2 TOMMY WALKER MINISTRIES
+    URL: https://www.tommywalkerministries.org/multitracksmenu
+    - Free worship song multitracks
+
+7.3 MULTITRACKS FOR WORSHIP
+    URL: https://www.multitracksforworship.com/freesongs
+    - Free worship multitracks
+
+7.4 WORSHIP BACKING BAND
+    URL: https://www.worshipbackingband.com/free-tracks
+    - Monthly free multitrack giveaway
+
+
+================================================================================
+SECTION 8: RECOMMENDATIONS FOR TEACHING
+================================================================================
+
+TOP PICKS FOR UNDERGRADUATE MIXING INSTRUCTION:
+
+1. CAMBRIDGE-MT (Primary resource)
+   - Largest free library (500+ songs)
+   - Explicitly designed for classroom use with bite-sized excerpts
+   - Genre diversity allows assignments across musical styles
+   - Raw, unprocessed audio teaches students to make all mixing decisions
+   - Already widely used in university audio programs worldwide
+
+2. TELEFUNKEN "LIVE FROM THE LAB" (Live recording mixing)
+   - Live sessions with mic bleed teach real-world challenges
+   - High recording quality
+   - Good for intermediate/advanced students
+
+3. MedleyDB (Research-informed teaching)
+   - True multitracks with rich metadata
+   - Genre diversity
+   - Bridges mixing practice and MIR (Music Information Retrieval) research
+
+4. MoisesDB (Advanced/computational)
+   - Granular stem taxonomy beyond the standard 4-stem model
+   - Python tools enable computational mixing exercises
+   - CC BY-NC-SA license is clear and permissive for education
+
+5. OPEN MULTITRACK TESTBED (Comparative mixing analysis)
+   - DAW session files enable studying professional mixing decisions
+   - Multiple mixes of the same song for A/B comparison exercises
+   - Searchable metadata
+
+6. LEWITT AUDIO (Supplementary)
+   - Professional studio recordings
+   - Good variety
+
+SUGGESTED ASSIGNMENT DESIGN:
+
+- Use Cambridge-MT "Edited Excerpts" for in-class mixing exercises
+  (15-30 minute focused activities)
+- Use full Cambridge-MT sessions for take-home mixing assignments
+- Use Telefunken sessions for live-recording mixing units
+- Use MUSDB18/MedleyDB for computational audio or source separation units
+- Use the Open Multitrack Testbed for mixing analysis/comparison assignments
+- Use MoisesDB for advanced stem-based production exercises
+
+
+================================================================================
+NOTES ON LICENSING
+================================================================================
+
+GENERAL PRINCIPLE: Nearly all free multitrack resources are offered
+under "educational use only" or "non-commercial" terms. This means:
+
+- Students CAN download, mix, and submit for coursework
+- Students CAN use mixes on personal demo reels/portfolios (usually)
+- Students CANNOT release mixes commercially
+- Students CANNOT upload mixes to streaming platforms for profit
+- Instructors SHOULD inform students of these restrictions
+
+The academic datasets (MUSDB18, MedleyDB, MoisesDB) typically require
+a brief access request through Zenodo and are restricted to academic use.
+
+Creative Commons licensed content (especially in the Open Multitrack Testbed
+and MoisesDB) provides the clearest and most permissive terms for
+educational use.
+
+
+================================================================================
+END OF DOCUMENT
+================================================================================
