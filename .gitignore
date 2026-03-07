@@ -1,6 +1,7 @@
 *
 .DS_Store
 !.gitignore
+!README.md
 !lecture/
 !lecture/**
 lecture/lecture-outline.md
