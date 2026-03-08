@@ -49,9 +49,9 @@ EQ shapes the **frequency content** of a sound — what you hear as tone, bright
 ### Best Practices of EQ
 
 - **Subtractive first**: Cut problem frequencies before boosting desired ones — introduces fewer artifacts (Senior, *Mixing Secrets*)
-- **HPF on everything**: Unless it's bass or kick, high-pass filter to remove unnecessary low-end rumble. Izhaki calls the HPF "the most-used filter in mixing."
+- **HPF on everything**: Unless it's bass or kick, high-pass filter to remove unnecessary low-end rumble.
 - **Cut narrow, boost wide**: Surgical cuts target problems; broad boosts sound more natural
-- **"If it doesn't need EQ, don't use EQ."** — Michael Stavrou, *Mixing with Your Mind*
+- **Don't use it if it doesn't need it!
 
 ---
 
