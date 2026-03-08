@@ -16,10 +16,17 @@ Download a multitrack session from **cambridge-mt.com/ms/mtk/**. Choose one of t
 
 Pick a song in a genre you enjoy — you'll be listening to it many times. Look for a session with **8-20 tracks** (manageable complexity for a first mix).
 
-**Recommended starter sessions** (available on cambridge-mt.com):
-- Pop/rock with vocals (good for practicing vocal balance and EQ)
-- Acoustic/folk (fewer tracks, clear arrangement)
-- Any genre that interests you
+**Suggested sessions** (click to download):
+- [Simon Lyn — *Copper*](https://mtkdata.cambridgemusictechnology.co.uk/MTK007/SimonLyn_Copper_Full.zip) — Atmospheric Strings Texture
+- [Jeffrey Hayatt — *Alex the Adventurer*](https://mtkdata.cambridgemusictechnology.co.uk/MTK001/JeffreyHayat_AlexTheAdventurer_Full.zip) — Cinematic Orchestral
+- [Chalga — *Szárad A Száj*](https://mtkdata.cambridgemusictechnology.co.uk/MTK015/Chalga_SzaradASzaj_Full.zip) — World Jazz
+- [Salon 8 — *Gökyüzü*](https://mtkdata.cambridgemusictechnology.co.uk/MTK017/Salon8_Gokyuzu_Full.zip) — Indie Rock (Turkey)
+- [Qupe — *Ayni Nehirde*](https://mtkdata.cambridgemusictechnology.co.uk/MTK012/Qupe_AyniNehirde_Full.zip) — Alt Rock (Turkey)
+- [Andres Guazzelli — *Flores De Abril*](https://multitracks.cambridge-mt.com/AndresGuazzelli_FloresDeAbril_Full.zip) — Prog Rock
+- [Rubblebucket — *Carousel Ride*](https://mtkdata.cambridgemusictechnology.co.uk/Telefunken/Rubblebucket_CarouselRide_Full.zip) — Indie
+- [Leslie Mendelson — *The Hardest Part*](https://mtkdata.cambridgemusictechnology.co.uk/Telefunken/LeslieMendelson_TheHardestPart_Full.zip) — Singer-Songwriter
+
+You may also browse **cambridge-mt.com/ms/mtk/** for other sessions in any genre that interests you.
 
 ---
 
