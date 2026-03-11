@@ -124,7 +124,7 @@ Some typical panning:
 
 ## Mixing Workflow Summary
 
-![Mixing Workflow](diagrams/07-mixing-workflow.svg)
+![Mixing Workflow](diagrams/07-mixing-workflow.svg?v=2)
 
 ---
 
