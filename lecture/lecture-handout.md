@@ -88,7 +88,9 @@ Compression controls **dynamic range** — the difference between the loudest an
 
 ## Reverb
 
-Reverb creates a sense of **space**. "Without reverb, mixes sound flat and two-dimensional." — Izhaki, *Mixing Audio*
+Reverb can create a gobal sense of **space** and can also be used as an effect on a single track or subgroup.
+
+Today we will focus on the idea of a global reverb that helps to create a sense of shared space and coherence to a mix.
 
 ### The Sound Stage (after Huber & Moylan)
 
@@ -105,9 +107,7 @@ Reverb creates a sense of **space**. "Without reverb, mixes sound flat and two-d
 
 ### Best Practices
 
-- **Use sends, not inserts**: Route multiple channels to a shared reverb bus with 100% wet and 0% dry signal to control how much reverb is added to the mix and cohere various parts together into the same virtual space
-- **Effects should add dimension "without being consciously noticed"** — Owsinski
-- Dry + loud = close/upfront. Wet + quiet = far/ambient. This use of reverb can create depth.
+- **Use sends, not inserts for additive effects like reverb**: Route multiple channels to a shared reverb bus with 100% wet and 0% dry signal to control how much reverb is added to the mix and cohere various parts together into the same virtual space
 
 ---
 
@@ -128,32 +128,12 @@ Some typical panning:
 
 ---
 
-## Key Quotes
-
-> "Forget your compressors and gates... the main way to improve results is the use of thought."
-> — Sir George Martin (foreword to Stavrou, *Mixing with Your Mind*)
-
-> "No measurements or formulae can ever replace the recordist."
-> — Rupert Neve (foreword to Moylan, *The Art of Recording*)
-
-> "A compressor is a compressor — it doesn't matter whether it's a $5000 one or a $150 one. You have to know how compression works to use it."
-> — Tony Visconti (quoted in Senior, *Mixing Secrets*)
-
-> "If I'm having trouble with a mix, probably I'm using too much EQ."
-> — Gus Dudgeon (quoted in Senior, *Mixing Secrets*)
-
-> "Mixing is the last creative step in the recording process."
-> — Ed Seay (quoted in Owsinski, *The Mixing Engineer's Handbook*)
-
----
-
 ## Free Resources
 
 | Resource | What It Is | URL |
 |----------|-----------|-----|
 | **cambridge-mt.com** | 500+ free multitrack sessions for mixing practice | cambridge-mt.com/ms/mtk/ |
 | **iZotope Learn Hub** | Free articles and guides on mixing fundamentals | izotope.com/en/learn |
-| **Dan Worrall (YouTube)** | Deep technical tutorials on EQ, compression, stereo | YouTube |
 | **Produce Like A Pro (YouTube)** | Full mixing tutorials with free multitracks | YouTube |
 
 ## Recommended Reading
