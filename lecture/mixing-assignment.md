@@ -1,5 +1,7 @@
 # Assignment: Your First Mix
 
+NOTE TO ASSESSORS/SEARCH COMMITTEE: without knowing this particular class I have chosen to provide a completely stand-alone assignment as an example. However, when teaching mixing as a poart of a general electronic/computer music course, I would instead of the students work with their own recorded and edited materials or that of their peers from previous assignments. For example, there might have already been a recording assignment from earlier int he semester that could then serve as the audio to be mixed for this assignment.
+
 ## Overview
 
 Using a free multitrack session, you will create a complete stereo mix that demonstrates your understanding of the core mixing concepts covered in class: balance, EQ, compression, reverb, and panning.
@@ -44,18 +46,17 @@ Work through the mixing workflow from class:
 5. **EQ**: Clean up problem frequencies. Start with high-pass filters on tracks that don't need low-end energy. Use subtractive EQ to address mud, boxiness, or harshness. Boost only where needed.
 6. **Compression**: Apply compression where dynamics need to be controlled — typically vocals, bass, and drum bus. Use your ears: if a fader feels unstable, that track likely needs compression.
 7. **Reverb**: Set up at least one reverb on a send/bus. Use it to create a sense of space and depth. Experiment with pre-delay and decay time.
-8. **Panning**: Place elements deliberately in the stereo field. Keep the foundation (vocal, bass, kick) centred. Spread supporting elements for width.
 
 ### C. Refinement
-9. Compare to a **reference track** in a similar style (match loudness!)
-10. Check your mix in **mono** — does it still hold together?
-11. Check at **low volume** — is the balance still clear?
-12. Take a break. Come back with fresh ears and make final adjustments.
-13. Add **automation** if you feel it would improve the mix (e.g., volume rides on the vocal)
+8. Compare to a **reference track** in a similar style (match loudness!)
+9. Check your mix in **mono** — does it still hold together?
+10. Check at **low volume** — is the balance still clear?
+11. Take a break. Come back with fresh ears and make final adjustments.
+12. Add **automation** if you feel it would improve the mix (e.g., volume rides on the vocal)
 
 ---
 
-## Step 3: Written Reflection (300-500 words)
+## Step 3: Hand-written Reflection (200-300 words)
 
 Write a short reflection addressing the following:
 
@@ -69,7 +70,7 @@ Write a short reflection addressing the following:
 ## Deliverables
 
 1. **Stereo mix** — WAV or AIFF, 48 kHz / 24-bit, peak level below 0 dBFS (leave headroom — do not clip)
-2. **Written reflection** — 300-500 words (PDF or Word doc)
+2. **Written reflection** — 200-300 words hand-written
 
 ---
 
@@ -95,9 +96,6 @@ Write a short reflection addressing the following:
 - **Reference early and often.** Load a commercial track in your session and A/B against it (match loudness first!).
 - **Less is more.** A mix with three well-chosen moves will almost always beat a mix with thirty random ones.
 - **Take breaks.** Walk away. Come back. Fresh ears will show you things you've been missing.
-
-> "The most dramatic mix transformations are usually brought about primarily through lots of small mix tweaks."
-> — Mike Senior, *Mixing Secrets for the Small Studio*
 
 ---
 
