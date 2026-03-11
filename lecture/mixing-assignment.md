@@ -1,6 +1,7 @@
 # Assignment: Your First Mix
 
 **NOTE TO ASSESSORS/SEARCH COMMITTEE:**
+
 Without knowing this particular class I have chosen to provide a completely stand-alone assignment as an example. However, when teaching mixing as a poart of a general electronic/computer music course, I would instead of the students work with their own recorded and edited materials or that of their peers from previous assignments. For example, there might have already been a recording assignment from earlier int he semester that could then serve as the audio to be mixed for this assignment.
 
 ## Overview
