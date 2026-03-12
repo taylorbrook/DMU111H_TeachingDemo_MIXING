@@ -31,15 +31,22 @@ Bobby Owsinski's framework from *The Mixing Engineer's Handbook* organizes every
 
 Name, colour-code, and group your tracks. Route related channels to subgroup busses (e.g., all drums to a "Drums" bus). Set yourself up for clarity before you touch any processing.
 
----
-
-## 2. Gain Stage & Signal Flow
-
-Set healthy input levels at every stage of the signal chain — no clipping, plenty of headroom.
-
 ![Signal Flow](diagrams/02-signal-flow.svg)
 
 **Key concept**: Use **inserts** for processing that's unique to a channel (EQ, compression). Use **sends** for effects shared across multiple channels (reverb, delay). This creates a cohesive sense of space and saves CPU.
+
+---
+
+## 2. Gain Stage
+
+Gain staging means setting healthy signal levels at every point in the signal chain — from input trim through plugins to the mix bus. The goal is to keep levels in the "sweet spot": loud enough for a clean signal, quiet enough to avoid clipping and leave headroom.
+
+### Best Practices
+
+- **Start at the source**: Set your channel input gain so peaks sit around -18 to -12 dBFS — this leaves plenty of headroom and keeps plugins operating in their sweet spot
+- **Unity gain through plugins**: After adding EQ or compression, check that the output level roughly matches the input level. Louder isn't better — it just tricks your ears
+- **Watch the mix bus**: Keep your master fader at 0 dB. If the mix bus is clipping, turn individual channels *down* rather than pulling the master fader down
+- **Headroom is your friend**: Aim for peaks around -6 dBFS on the mix bus — this leaves room for mastering
 
 ---
 
