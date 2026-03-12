@@ -9,6 +9,8 @@
 
 Mixing is the process of combining individual recorded tracks into a finished stereo (or surround) piece. It is both a technical craft and a creative art form.
 
+![The Audio Production Process](diagrams/00-production-process.svg)
+
 ---
 
 ## Owsinski's Six Elements of a Mix
@@ -19,7 +21,21 @@ Bobby Owsinski's framework from *The Mixing Engineer's Handbook* organizes every
 
 ---
 
-## Signal Flow
+## Mixing Workflow
+
+![Mixing Workflow](diagrams/07-mixing-workflow.svg?v=2)
+
+---
+
+## 1. Organize
+
+Name, colour-code, and group your tracks. Route related channels to subgroup busses (e.g., all drums to a "Drums" bus). Set yourself up for clarity before you touch any processing.
+
+---
+
+## 2. Gain Stage & Signal Flow
+
+Set healthy input levels at every stage of the signal chain — no clipping, plenty of headroom.
 
 ![Signal Flow](diagrams/02-signal-flow.svg)
 
@@ -27,7 +43,20 @@ Bobby Owsinski's framework from *The Mixing Engineer's Handbook* organizes every
 
 ---
 
-## EQ (Equalization)
+## 3. Static Mix & Panning
+
+Faders and pan only — no plugins. Get the balance right first. This is the foundation of your mix.
+
+![Panning — Stereo Placement](diagrams/06-panning.svg)
+
+Some typical panning:
+- **Centre**: Lead, bass, primary rhythm
+- **Sides**: Harmony, secondary elements, texture, percussion
+- **Check in mono**: If panned elements disappear in mono, there may be phase issues
+
+---
+
+## 4. EQ (Equalization)
 
 EQ shapes the **frequency content** of a sound — what you hear as tone, brightness, warmth, or muddiness.
 
@@ -55,7 +84,7 @@ EQ shapes the **frequency content** of a sound — what you hear as tone, bright
 
 ---
 
-## Compression
+## 5. Compression
 
 Compression controls **dynamic range** — the difference between the loudest and quietest parts of a signal.
 
@@ -86,9 +115,9 @@ Compression controls **dynamic range** — the difference between the loudest an
 
 ---
 
-## Reverb
+## 6. Reverb / FX
 
-Reverb can create a gobal sense of **space** and can also be used as an effect on a single track or subgroup.
+Reverb can create a global sense of **space** and can also be used as an effect on a single track or subgroup.
 
 Today we will focus on the idea of a global reverb that helps to create a sense of shared space and coherence to a mix.
 
@@ -111,20 +140,25 @@ Today we will focus on the idea of a global reverb that helps to create a sense 
 
 ---
 
-## Panning
+## 7. Refine
 
-![Panning — Stereo Placement](diagrams/06-panning.svg)
-
-Some typical panning:
-- **Centre**: Lead, bass, primary rhythm
-- **Sides**: Harmony, secondary elements, texture, percussion
-- **Check in mono**: If panned elements disappear in mono, there may be phase issues
+Revisit your balance. Make small tweaks to fader levels, EQ, and compression now that all the processing is in place. "Lots of small mix tweaks." — Mike Senior
 
 ---
 
-## Mixing Workflow Summary
+## 8. Check
 
-![Mixing Workflow](diagrams/07-mixing-workflow.svg?v=2)
+- **Reference tracks**: Compare your mix against professional mixes in a similar genre
+- **Mono check**: Collapse to mono to check for phase issues
+- **Low volume**: Does the balance hold at a whisper?
+- **Different systems**: Headphones, laptop speakers, car — your mix should translate
+- **Take breaks**: Fresh ears matter
+
+---
+
+## 9. Automate
+
+Volume rides, effect sends, filter sweeps — automation is the final creative layer. Use it to shape the energy of the song over time: push a vocal up for a chorus, pull back the reverb for an intimate verse, build a filter sweep into a drop.
 
 ---
 

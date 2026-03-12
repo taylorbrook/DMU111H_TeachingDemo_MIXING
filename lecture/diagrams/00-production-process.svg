@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 210" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="0" dy="1" stdDeviation="3" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="430" y="32" text-anchor="middle" font-size="22" font-weight="700" fill="#1A202C">The Audio Production Process</text>
+  <text x="430" y="52" text-anchor="middle" font-size="13" fill="#718096" font-style="italic">Where mixing fits in the production chain</text>
+
+  <!-- Stage 1: Recording / Tracking -->
+  <g filter="url(#shadow)">
+    <rect x="25" y="72" width="180" height="120" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="55" cy="96" r="14" fill="#3182CE"/>
+  <text x="55" y="101" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="77" y="101" font-size="14" font-weight="700" fill="#1A202C">Recording</text>
+  <text x="43" y="122" font-size="11" fill="#4A5568">Capturing performances to</text>
+  <text x="43" y="137" font-size="11" fill="#4A5568">individual tracks. Mic selection,</text>
+  <text x="43" y="152" font-size="11" fill="#4A5568">placement, room acoustics.</text>
+  <text x="43" y="175" font-size="10" fill="#A0AEC0" font-style="italic">a.k.a. "tracking"</text>
+
+  <!-- Arrow 1 → 2 -->
+  <line x1="207" y1="132" x2="233" y2="132" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="229,127 239,132 229,137" fill="#CBD5E0"/>
+
+  <!-- Stage 2: Editing -->
+  <g filter="url(#shadow)">
+    <rect x="235" y="72" width="180" height="120" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="265" cy="96" r="14" fill="#3182CE"/>
+  <text x="265" y="101" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="287" y="101" font-size="14" font-weight="700" fill="#1A202C">Editing</text>
+  <text x="253" y="122" font-size="11" fill="#4A5568">Cleaning and preparing the</text>
+  <text x="253" y="137" font-size="11" fill="#4A5568">recorded material. Comping,</text>
+  <text x="253" y="152" font-size="11" fill="#4A5568">trimming, timing/pitch correction.</text>
+  <text x="253" y="175" font-size="10" fill="#A0AEC0" font-style="italic">Preparing tracks for the mix.</text>
+
+  <!-- Arrow 2 → 3 -->
+  <line x1="417" y1="132" x2="443" y2="132" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="439,127 449,132 439,137" fill="#CBD5E0"/>
+
+  <!-- Stage 3: Mixing (highlighted) -->
+  <g filter="url(#shadow)">
+    <rect x="445" y="72" width="180" height="120" rx="10" fill="#FAF5FF" stroke="#805AD5" stroke-width="2"/>
+  </g>
+  <circle cx="475" cy="96" r="14" fill="#805AD5"/>
+  <text x="475" y="101" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="497" y="101" font-size="14" font-weight="700" fill="#1A202C">Mixing</text>
+  <text x="463" y="122" font-size="11" fill="#4A5568">Combining tracks into a</text>
+  <text x="463" y="137" font-size="11" fill="#4A5568">cohesive stereo output. Balance,</text>
+  <text x="463" y="152" font-size="11" fill="#4A5568">EQ, compression, panning, reverb.</text>
+  <text x="463" y="175" font-size="10" fill="#A0AEC0" font-style="italic">The focus of this lecture.</text>
+
+  <!-- Arrow 3 → 4 -->
+  <line x1="627" y1="132" x2="653" y2="132" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="649,127 659,132 649,137" fill="#CBD5E0"/>
+
+  <!-- Stage 4: Mastering -->
+  <g filter="url(#shadow)">
+    <rect x="655" y="72" width="180" height="120" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <circle cx="685" cy="96" r="14" fill="#3182CE"/>
+  <text x="685" y="101" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="707" y="101" font-size="14" font-weight="700" fill="#1A202C">Mastering</text>
+  <text x="673" y="122" font-size="11" fill="#4A5568">Final polish for distribution.</text>
+  <text x="673" y="137" font-size="11" fill="#4A5568">Loudness, tonal consistency,</text>
+  <text x="673" y="152" font-size="11" fill="#4A5568">format delivery (streaming, etc.).</text>
+  <text x="673" y="175" font-size="10" fill="#A0AEC0" font-style="italic">Preparing for the listener.</text>
+</svg>
