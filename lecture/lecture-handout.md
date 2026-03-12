@@ -44,9 +44,9 @@ Gain staging means setting healthy signal levels at every point in the signal ch
 ### Best Practices
 
 - **Start at the source**: Set your channel input gain so peaks sit around -18 to -12 dBFS — this leaves plenty of headroom and keeps plugins operating in their sweet spot
-- **Unity gain through plugins**: After adding EQ or compression, check that the output level roughly matches the input level. Louder isn't better — it just tricks your ears
+- **Unity gain through plugins**: After adding EQ or compression (stage 4 and 5), check that the output level roughly matches the input level. Louder isn't better — it just tricks your ears
 - **Watch the mix bus**: Keep your master fader at 0 dB. If the mix bus is clipping, turn individual channels *down* rather than pulling the master fader down
-- **Headroom is your friend**: Aim for peaks around -6 dBFS on the mix bus — this leaves room for mastering
+- **Headroom is your friend**: On your mix bus aim for peaks below -6 dBFS — this leaves room for mastering
 
 ---
 
