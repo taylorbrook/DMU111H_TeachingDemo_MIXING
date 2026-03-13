@@ -2,7 +2,7 @@
 
 **NOTE TO ASSESSORS/SEARCH COMMITTEE:**
 
-Without knowing this particular class I have chosen to provide a completely stand-alone assignment as an example. However, when teaching mixing as a poart of a general electronic/computer music course, I would instead of the students work with their own recorded and edited materials or that of their peers from previous assignments. For example, there might have already been a recording assignment from earlier int he semester that could then serve as the audio to be mixed for this assignment.
+Without knowing the syllabus for this class, I have chosen to provide a stand-alone assignment as an example. However, when teaching mixing as a part of a general electronic/computer music course, I would normally have the students work with their own recorded and edited materials or that of their peers from previous assignments. For example, there might have already been a recording assignment from earlier in the semester that could serve as the audio to be mixed for this assignment.
 
 ## Overview
 
@@ -16,9 +16,9 @@ Using a free multitrack session, you will create a complete stereo mix that demo
 
 ## Step 1: Choose Your Multitrack
 
-Download a multitrack session from **cambridge-mt.com/ms/mtk/**. Choose one of the "Edited Excerpt" versions (shorter clips ideal for a first mix).
+Download a multitrack session from **cambridge-mt.com/ms/mtk/**. 
 
-Pick a song in a genre you enjoy — you'll be listening to it many times. Look for a session with **8-20 tracks** (manageable complexity for a first mix).
+Pick a song in a genre you enjoy — you'll be listening to it many times. Look for a session with **8-20 tracks**.
 
 **Suggested sessions** (click to download):
 - [Simon Lyn — *Copper*](https://mtkdata.cambridgemusictechnology.co.uk/MTK007/SimonLyn_Copper_Full.zip) — Atmospheric Strings Texture
@@ -39,22 +39,22 @@ You may also browse **cambridge-mt.com/ms/mtk/** for other sessions in any genre
 Work through the mixing workflow from class:
 
 ### A. Setup and Static Mix
-1. Import the tracks into your DAW (Logic Pro, Reaper, GarageBand, Audacity, or any DAW you have access to)
-2. Organize: name, colour-code, and group your tracks logically
-3. Set gain staging — make sure no tracks are clipping before processing
+1. Import the tracks into your DAW (Logic Pro, Reaper, protools, or any DAW you have access to).
+2. Organize: name, colour-code, and group your tracks logically, create mix bus and route all tracks to it, create a reverb bus
+3. Set gain staging — make sure no tracks are clipping before processing.
 4. Build a **static mix**: using only faders and pan knobs, create the best balance you can. Spend real time on this before reaching for any plugins.
 
 ### B. Processing
 5. **EQ**: Clean up problem frequencies. Start with high-pass filters on tracks that don't need low-end energy. Use subtractive EQ to address mud, boxiness, or harshness. Boost only where needed.
-6. **Compression**: Apply compression where dynamics need to be controlled — typically vocals, bass, and drum bus. Use your ears: if a fader feels unstable, that track likely needs compression.
+6. **Compression**: Apply compression where dynamics need to be controlled — typically vocals, bass, and drum bus. Experiment and use your ears.
 7. **Reverb**: Set up at least one reverb on a send/bus. Use it to create a sense of space and depth. Experiment with pre-delay and decay time.
 
 ### C. Refinement
-8. Compare to a **reference track** in a similar style (match loudness!)
+8. Compare to a **reference track** in a similar style. You will likely need to reduce the gain on your reference track to match loudness with your mix.
 9. Check your mix in **mono** — does it still hold together?
 10. Check at **low volume** — is the balance still clear?
 11. Take a break. Come back with fresh ears and make final adjustments.
-12. Add **automation** if you feel it would improve the mix (e.g., volume rides on the vocal)
+12. Add at least one track of **automation**.
 
 ---
 
@@ -64,7 +64,7 @@ Write a short reflection addressing the following:
 
 1. **Approach**: What was the most important element you focused on in your mix? Why?
 2. **Decisions**: Describe 2-3 specific mixing decisions you made (e.g., "I cut 300 Hz on the acoustic guitar to reduce boxiness" or "I panned the two rhythm guitars left and right to create width"). Why did you make each choice?
-3. **Challenges**: What was the hardest part of the process? What would you do differently next time?
+3. **Challenges**: What was the hardest part of the process? Did you struggle to understand anything?
 4. **Listening**: Did using a reference track change any of your decisions? Did checking in mono or at low volume reveal anything?
 
 ---
@@ -95,9 +95,8 @@ Write a short reflection addressing the following:
 
 - **Spend time on the static mix.** If it sounds good with just faders and panning, everything else becomes easier.
 - **Use your ears, not your eyes.** Close the plugin GUI sometimes and just listen.
-- **Reference early and often.** Load a commercial track in your session and A/B against it (match loudness first!).
-- **Less is more.** A mix with three well-chosen moves will almost always beat a mix with thirty random ones.
-- **Take breaks.** Walk away. Come back. Fresh ears will show you things you've been missing.
+- **Less is more.** 
+- **Take breaks.** Walk away. Come back with fresh ears.
 
 ---
 
