@@ -7,7 +7,7 @@
 "We are mixing engineers, but more importantly: we are *sonic artists*."
 — Roey Izhaki, *Mixing Audio*
 
-Mixing is the process of combining individual recorded tracks into a finished stereo (or surround) piece. It is both a technical craft and a creative art form.
+Mixing is the process of combining individual recorded tracks into a finished single piece of audio. It is both a technical craft and a creative act.
 
 ![The Audio Production Process](diagrams/00-production-process.svg)
 
@@ -29,7 +29,7 @@ Bobby Owsinski's framework from *The Mixing Engineer's Handbook* organizes every
 
 ## 1. Organize
 
-Name, colour-code, and group your tracks. Route related channels to subgroup busses (e.g., all drums to a "Drums" bus). Set yourself up for clarity before you touch any processing.
+Name, colour-code, and group your tracks. Route related channels to subgroup busses (e.g., all drums to a "Drums" bus). create a mix bus and global reverb bus. Set yourself up for clarity or signal flow and organization before you touch any processing.
 
 ![Signal Flow](diagrams/02-signal-flow.svg)
 
@@ -39,7 +39,9 @@ Name, colour-code, and group your tracks. Route related channels to subgroup bus
 
 ## 2. Gain Stage
 
-Gain staging means setting healthy signal levels at every point in the signal chain — from input trim through plugins to the mix bus. The goal is to keep levels in the "sweet spot": loud enough for a clean signal, quiet enough to avoid clipping and leave headroom.
+Gain staging means setting healthy and balanced signal levels across all tracks. The goal is to keep levels in the "sweet spot": loud enough for a clean signal, quiet enough to avoid clipping and leave headroom. 
+
+Gain staging can be achieved with a gain plugin at the top of the processing chain or other means depending on the DAW. Leave your faders at unity, those will be used later on!
 
 ### Best Practices
 
