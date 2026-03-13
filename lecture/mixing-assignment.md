@@ -91,12 +91,12 @@ Write a short reflection addressing the following:
 
 ---
 
-## Tips for Success
+## Tips
 
 - **Spend time on the static mix.** If it sounds good with just faders and panning, everything else becomes easier.
 - **Use your ears, not your eyes.** Close the plugin GUI sometimes and just listen.
-- **Less is more.** 
-- **Take breaks.** Walk away. Come back with fresh ears.
+- **Less is often more.** 
+- **Take breaks.** Walk away and come back with fresh ears.
 
 ---
 
