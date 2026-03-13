@@ -33,7 +33,7 @@ Name, colour-code, and group your tracks. Route related channels to subgroup bus
 
 ![Signal Flow](diagrams/02-signal-flow.svg)
 
-**Key concept**: Use **inserts** for processing that's unique to a channel (EQ, compression). Use **sends** for effects shared across multiple channels (reverb, delay). This creates a cohesive sense of space and saves CPU.
+**Key concept**: Use **inserts** for processing that's unique to a channel (EQ, compression). Use **sends** for effects shared across multiple channels and additive effects (reverb, delay). This creates a cohesive sense of space, finer control of the sound, and saves CPU.
 
 ---
 
@@ -46,22 +46,22 @@ Gain staging can be achieved with a gain plugin at the top of the processing cha
 ### Best Practices
 
 - **Start at the source**: Set your channel input gain so peaks sit around -18 to -12 dBFS — this leaves plenty of headroom and keeps plugins operating in their sweet spot
-- **Unity gain through plugins**: After adding EQ or compression (stage 4 and 5), check that the output level roughly matches the input level. Louder isn't better — it just tricks your ears
-- **Watch the mix bus**: Keep your master fader at 0 dB. If the mix bus is clipping, turn individual channels *down* rather than pulling the master fader down
-- **Headroom is your friend**: On your mix bus aim for peaks below -6 dBFS — this leaves room for mastering
+- **Unity gain through plugins**: After adding EQ or compression (stage 4 and 5), check that the output level roughly matches the input level. Louder isn't better — it just tricks your ears and makes the comparison harder.
+- **Watch the mix bus**: Keep your master fader at 0 dB. If the mix bus is clipping, turn individual channels *down* rather than pulling the master fader down.
+- **Leave Headroom*: On your mix bus aim for peaks below -6 dBFS — this leaves room for mastering.
 
 ---
 
 ## 3. Static Mix & Panning
 
-Faders and pan only — no plugins. Get the balance right first. This is the foundation of your mix.
+Use the faders and pan only — no plugins. Get the balance right first. This is the foundation of your mix.
 
 ![Panning — Stereo Placement](diagrams/06-panning.svg)
 
 Some typical panning:
-- **Centre**: Lead, bass, primary rhythm
-- **Sides**: Harmony, secondary elements, texture, percussion
-- **Check in mono**: If panned elements disappear in mono, there may be phase issues
+- **Centre**: Lead, bass, and primary rhythm.
+- **Sides**: Harmony, secondary elements, texture, percussion. consider hard panning and using the entire width available!
+- **Check in mono**: If panned elements disappear in mono, there may be phase issues.
 
 ---
 
@@ -87,8 +87,8 @@ EQ shapes the **frequency content** of a sound — what you hear as tone, bright
 ### Best Practices of EQ
 
 - **Subtractive first**: Cut problem frequencies before boosting desired ones — introduces fewer artifacts (Senior, *Mixing Secrets*)
-- **HPF on everything**: Unless it's bass or kick, high-pass filter to remove unnecessary low-end rumble.
-- **Cut narrow, boost wide**: Surgical cuts target problems; broad boosts sound more natural
+- **HPF on nearly everything**: Unless it's bass or kick, high-pass filter to remove unnecessary low-end rumble.
+- **Cut narrow, boost wide**: Surgical cuts target problems and broad boosts sound more natural
 - **Don't use it if it doesn't need it!
 
 ---
@@ -115,6 +115,8 @@ Compression controls **dynamic range** — the difference between the loudest an
 | **Release** | How quickly compression stops | Fast = can produce a pumping effect; Slow = smooth |
 | **Makeup Gain** | Boosts output to compensate for reduction | Restoring perceived volume |
 
+You can think of a compressor kind of like an automated fader that brings down the level past a certain loudness.
+
 ### Best Practices
 
 - **Start gentle**: Low ratio (2:1-4:1), moderate threshold, and adjust from there
@@ -126,7 +128,7 @@ Compression controls **dynamic range** — the difference between the loudest an
 
 ## 6. Reverb / FX
 
-Reverb can create a global sense of **space** and can also be used as an effect on a single track or subgroup.
+Reverb can create a global sense of **space** but can also be used as an effect on a single track or subgroup.
 
 Today we will focus on the idea of a global reverb that helps to create a sense of shared space and coherence to a mix.
 
@@ -151,23 +153,22 @@ Today we will focus on the idea of a global reverb that helps to create a sense 
 
 ## 7. Refine
 
-Revisit your balance. Make small tweaks to fader levels, EQ, and compression now that all the processing is in place. "Lots of small mix tweaks." — Mike Senior
+Revisit your balance. Make small tweaks to fader levels, EQ, and compression now that all the processing is in place. This might also be a nice place to have a little break and step away from the mix before returning with fresh ears.
 
 ---
 
 ## 8. Check
 
-- **Reference tracks**: Compare your mix against professional mixes in a similar genre
-- **Mono check**: Collapse to mono to check for phase issues
+- **Reference tracks**: Compare your mix against professional mixes in a similar genre.
+- **Mono check**: Collapse to mono to check for phase issues.
 - **Low volume**: Does the balance hold at a whisper?
-- **Different systems**: Headphones, laptop speakers, car — your mix should translate
-- **Take breaks**: Fresh ears matter
+- **Different systems**: Headphones, laptop speakers, car — your mix should translate.
 
 ---
 
 ## 9. Automate
 
-Volume rides, effect sends, filter sweeps — automation is the final creative layer. Use it to shape the energy of the song over time: push a vocal up for a chorus, pull back the reverb for an intimate verse, build a filter sweep into a drop.
+Volume rides, effect sends, panning movement, filter sweeps — automation is the final stage and a great place to get creative.
 
 ---
 
