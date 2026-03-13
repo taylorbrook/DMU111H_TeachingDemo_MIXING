@@ -24,6 +24,7 @@
   <text x="230" y="88" text-anchor="middle" font-size="10" fill="#A0AEC0" font-weight="600" letter-spacing="1">CHANNEL STRIPS</text>
   <text x="420" y="88" text-anchor="middle" font-size="10" fill="#A0AEC0" font-weight="600" letter-spacing="1">SUBGROUPS</text>
   <text x="620" y="88" text-anchor="middle" font-size="10" fill="#A0AEC0" font-weight="600" letter-spacing="1">MIX BUS</text>
+  <text x="780" y="88" text-anchor="middle" font-size="10" fill="#A0AEC0" font-weight="600" letter-spacing="1">STEREO OUT</text>
 
   <!-- Track 1 -->
   <g filter="url(#shadow)">
@@ -89,7 +90,7 @@
     <rect x="370" y="180" width="100" height="54" rx="6" fill="#FAF5FF" stroke="#E9D8FD" stroke-width="1.5"/>
   </g>
   <text x="420" y="200" text-anchor="middle" font-size="10" fill="#718096">Subgroup</text>
-  <text x="420" y="216" text-anchor="middle" font-size="11" font-weight="600" fill="#6B46C1">Harmony Bus</text>
+  <text x="420" y="216" text-anchor="middle" font-size="11" font-weight="600" fill="#6B46C1">Bus</text>
 
   <!-- Arrows: Harmony A & B strips → Subgroup -->
   <line x1="280" y1="197" x2="368" y2="200" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
@@ -136,12 +137,15 @@
   <path d="M 470,377 L 620,377 L 620,307" stroke="#C05621" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.6" fill="none" marker-end="url(#arrow-orange)"/>
   <text x="540" y="370" font-size="9" fill="#C05621" font-style="italic">return</text>
 
-  <!-- Gain staging annotation -->
-  <rect x="710" y="155" width="130" height="78" rx="6" fill="#FFF5F5" stroke="#FED7D7" stroke-width="1"/>
-  <text x="775" y="175" text-anchor="middle" font-size="10" font-weight="600" fill="#C53030">Gain Staging Rule</text>
-  <text x="775" y="193" text-anchor="middle" font-size="9.5" fill="#718096">Channel faders</text>
-  <text x="775" y="206" text-anchor="middle" font-size="9.5" fill="#718096">below subgroups,</text>
-  <text x="775" y="219" text-anchor="middle" font-size="9.5" fill="#718096">below master fader.</text>
+  <!-- Stereo Out -->
+  <g filter="url(#shadow)">
+    <rect x="730" y="190" width="100" height="80" rx="10" fill="#F0FFF4" stroke="#C6F6D5" stroke-width="1.5"/>
+  </g>
+  <text x="780" y="224" text-anchor="middle" font-size="11" fill="#718096">Stereo</text>
+  <text x="780" y="246" text-anchor="middle" font-size="16" font-weight="700" fill="#276749">Output</text>
+
+  <!-- Arrow: Mix Bus → Stereo Out -->
+  <line x1="680" y1="230" x2="728" y2="230" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
 
   <!-- ============================================================ -->
   <!-- CHANNEL STRIP DETAIL -->

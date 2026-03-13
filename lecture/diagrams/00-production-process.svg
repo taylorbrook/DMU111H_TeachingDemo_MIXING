@@ -22,8 +22,8 @@
   <text x="43" y="175" font-size="10" fill="#A0AEC0" font-style="italic">a.k.a. "tracking"</text>
 
   <!-- Arrow 1 → 2 -->
-  <line x1="207" y1="132" x2="233" y2="132" stroke="#CBD5E0" stroke-width="2"/>
-  <polygon points="229,127 239,132 229,137" fill="#CBD5E0"/>
+  <line x1="208" y1="132" x2="228" y2="132" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="225,127 232,132 225,137" fill="#CBD5E0"/>
 
   <!-- Stage 2: Editing -->
   <g filter="url(#shadow)">
@@ -38,8 +38,8 @@
   <text x="253" y="175" font-size="10" fill="#A0AEC0" font-style="italic">Preparing tracks for the mix.</text>
 
   <!-- Arrow 2 → 3 -->
-  <line x1="417" y1="132" x2="443" y2="132" stroke="#CBD5E0" stroke-width="2"/>
-  <polygon points="439,127 449,132 439,137" fill="#CBD5E0"/>
+  <line x1="418" y1="132" x2="438" y2="132" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="435,127 442,132 435,137" fill="#CBD5E0"/>
 
   <!-- Stage 3: Mixing (highlighted) -->
   <g filter="url(#shadow)">
@@ -54,8 +54,8 @@
   <text x="463" y="175" font-size="10" fill="#A0AEC0" font-style="italic">The focus of this lecture.</text>
 
   <!-- Arrow 3 → 4 -->
-  <line x1="627" y1="132" x2="653" y2="132" stroke="#CBD5E0" stroke-width="2"/>
-  <polygon points="649,127 659,132 649,137" fill="#CBD5E0"/>
+  <line x1="628" y1="132" x2="648" y2="132" stroke="#CBD5E0" stroke-width="2"/>
+  <polygon points="645,127 652,132 645,137" fill="#CBD5E0"/>
 
   <!-- Stage 4: Mastering -->
   <g filter="url(#shadow)">
