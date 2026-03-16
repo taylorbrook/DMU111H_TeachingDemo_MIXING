@@ -3,7 +3,7 @@
 ---
 Logic Session we will work though today is available here for download:
 
-https://drive.google.com/drive/folders/16xjO3RyLI8kzNBukc60Dux2jV8VkywOZ?usp=sharing
+https://drive.google.com/file/d/1voTiR91ezcdVg04ZDi5TENgO9HwLmuxr/view?usp=sharing
 
 Click on the three-dots and then "download"
 
