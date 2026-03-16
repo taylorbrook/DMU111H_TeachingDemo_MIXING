@@ -1,6 +1,8 @@
 # Intro to Audio Mixing
 
 ---
+Logic Session we will work though today is available here for download:
+https://drive.google.com/drive/folders/1aw7aa44Hl-B-o_s_FCwD3qobD1pQKF-u?usp=sharing
 
 ## What is Mixing?
 
