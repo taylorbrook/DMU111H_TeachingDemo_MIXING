@@ -112,6 +112,48 @@
     font-size: 1.5vw;
   }
 
+  /* Content slide */
+  .slide.content {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    text-align: left;
+    gap: 0;
+    align-items: flex-start;
+    padding: 8vh 12vw;
+  }
+
+  .slide.content h2 {
+    font-size: 3vw;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4vh;
+  }
+
+  .slide.content ol {
+    padding-left: 1.5vw;
+    margin: 0;
+    list-style: none;
+    counter-reset: recap;
+  }
+
+  .slide.content ol li {
+    counter-increment: recap;
+    font-size: 1.6vw;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #d0d8e8;
+    margin-bottom: 2.5vh;
+    padding-left: 2.5vw;
+    position: relative;
+  }
+
+  .slide.content ol li::before {
+    content: counter(recap) ".";
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+    color: #4a90d9;
+  }
+
   /* Navigation hint */
   .nav-hint {
     position: fixed;
@@ -157,6 +199,18 @@
       <li>Actually performing the changes that were determined and rehearsed above in real time <span class="parenthetical">(similar to a performance on a traditional musical instrument)."</span></li>
     </ol>
   </blockquote>
+</div>
+
+<!-- Slide 3: Wrap-Up Recap -->
+<div class="slide content" id="slide-3">
+  <h2>Wrap-Up Recap</h2>
+  <ol>
+    <li>Mixing is an art. Technical skills serve creative vision.</li>
+    <li>Set up well: organize your session, get your gain staging right, build a static mix before reaching for plugins.</li>
+    <li>Listen deliberately: take breaks, use references, check on different systems, trust your ears.</li>
+    <li>Core tools: EQ shapes frequency, compression shapes dynamics, reverb creates space. Each should be used intentionally.</li>
+    <li>Panning creates your stereo canvas — work with EQ and reverb to give every element its own space.</li>
+  </ol>
 </div>
 
 <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
