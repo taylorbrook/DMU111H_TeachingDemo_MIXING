@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Assignment: Your First Mix</title>
+  <style>
+    @page {
+      size: letter;
+      margin: 0.75in 0.75in 1in 0.75in;
+      @bottom-center {
+        content: counter(page);
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 9pt;
+        color: #718096;
+      }
+    }
+    @page rubric {
+      size: letter;
+      margin: 0.5in 0.5in 0.8in 0.5in;
+      @bottom-center {
+        content: counter(page);
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 9pt;
+        color: #718096;
+      }
+    }
+    * { box-sizing: border-box; }
+    html {
+      font-size: 11pt;
+      color: #1a1a1a;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      margin: 0 auto;
+      max-width: 7in;
+      padding: 0;
+    }
+    h1 {
+      font-size: 22pt;
+      margin: 0 0 0.2em 0;
+      color: #1a202c;
+      border-bottom: 2px solid #3182CE;
+      padding-bottom: 0.15em;
+    }
+    h2 {
+      font-size: 14pt;
+      margin: 0.8em 0 0.25em 0;
+      color: #2d3748;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 0.1em;
+    }
+    h3 {
+      font-size: 11.5pt;
+      margin: 0.5em 0 0.2em 0;
+      color: #4a5568;
+    }
+    p { margin: 0.3em 0; }
+    ul, ol { margin: 0.2em 0; padding-left: 1.5em; }
+    li { margin: 0.1em 0; }
+    strong { color: #1a202c; }
+    em { color: #4a5568; }
+    a { color: #3182CE; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .note {
+      background: #ebf8ff;
+      border-left: 4px solid #3182CE;
+      padding: 0.35em 0.8em;
+      margin: 0.3em 0;
+      font-size: 10pt;
+      color: #2c5282;
+    }
+    .overview-box {
+      background: #f7fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 4px;
+      padding: 0.4em 0.8em;
+      margin: 0.3em 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.5em 0;
+      font-size: 9.5pt;
+    }
+    th {
+      background: #edf2f7;
+      font-weight: 700;
+      text-align: left;
+      padding: 0.35em 0.5em;
+      border: 1px solid #cbd5e0;
+    }
+    td {
+      padding: 0.3em 0.5em;
+      border: 1px solid #e2e8f0;
+      vertical-align: top;
+    }
+    tr:nth-child(even) td { background: #f7fafc; }
+    hr {
+      border: none;
+      border-top: 1px solid #e2e8f0;
+      margin: 0.5em 0;
+    }
+    /* Page break hints */
+    h2 { page-break-after: avoid; }
+    table { page-break-inside: avoid; }
+    h2 + *, h3 + * { page-break-before: avoid; }
+    .suggested-list { columns: 2; column-gap: 1.5em; }
+    .suggested-list li { break-inside: avoid; }
+    .rubric-page { page: rubric; page-break-before: always; }
+    .rubric-page h2 { margin: 0 0 0.3em 0; }
+    .rubric-page table {
+      font-size: 7.5pt;
+      line-height: 1.3;
+    }
+    .rubric-page th {
+      padding: 0.25em 0.35em;
+      font-size: 7.5pt;
+    }
+    .rubric-page td {
+      padding: 0.2em 0.35em;
+      font-size: 7.5pt;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Assignment: Your First Mix</h1>
+
+<div class="note">
+  <strong>Note to assessors / search committee:</strong> Without knowing the syllabus for this class, I have chosen to provide a stand-alone assignment as an example. However, when teaching mixing as a part of a general electronic/computer music course, I would normally have the students work with their own recorded and edited materials or that of their peers from previous assignments.
+</div>
+
+<h2>Overview</h2>
+<div class="overview-box">
+  <p>Using a free multitrack session, you will create a complete stereo mix that demonstrates your understanding of the core mixing concepts covered in class: balance, EQ, compression, reverb, and panning.</p>
+  <p><strong>Due</strong>: [DATE]<br>
+  <strong>Format</strong>: Stereo WAV or AIFF file, 48 kHz / 24-bit, plus a short written reflection<br>
+  <strong>Estimated time</strong>: 3–5 hours</p>
+</div>
+
+<hr>
+
+<h2>Step 1: Choose Your Multitrack</h2>
+<p>Download a multitrack session from <strong>cambridge-mt.com/ms/mtk/</strong>.</p>
+<p>Pick a song in a genre you enjoy — you'll be listening to it many times. Look for a session with <strong>8–20 tracks</strong>.</p>
+
+<h3>Suggested Sessions</h3>
+<ul class="suggested-list">
+  <li><a href="https://mtkdata.cambridgemusictechnology.co.uk/MTK007/SimonLyn_Copper_Full.zip">Simon Lyn — <em>Copper</em></a> — Atmospheric Strings Texture</li>
+  <li><a href="https://mtkdata.cambridgemusictechnology.co.uk/MTK001/JeffreyHayat_AlexTheAdventurer_Full.zip">Jeffrey Hayatt — <em>Alex the Adventurer</em></a> — Cinematic Orchestral</li>
+  <li><a href="https://mtkdata.cambridgemusictechnology.co.uk/MTK015/Chalga_SzaradASzaj_Full.zip">Chalga — <em>Szárad A Száj</em></a> — World Jazz</li>
+  <li><a href="https://mtkdata.cambridgemusictechnology.co.uk/MTK017/Salon8_Gokyuzu_Full.zip">Salon 8 — <em>Gökyüzü</em></a> — Indie Rock (Turkey)</li>
+  <li><a href="https://mtkdata.cambridgemusictechnology.co.uk/MTK012/Qupe_AyniNehirde_Full.zip">Qupe — <em>Ayni Nehirde</em></a> — Alt Rock (Turkey)</li>
+  <li><a href="https://multitracks.cambridge-mt.com/AndresGuazzelli_FloresDeAbril_Full.zip">Andres Guazzelli — <em>Flores De Abril</em></a> — Prog Rock</li>
+  <li><a href="https://mtkdata.cambridgemusictechnology.co.uk/Telefunken/Rubblebucket_CarouselRide_Full.zip">Rubblebucket — <em>Carousel Ride</em></a> — Indie</li>
+  <li><a href="https://mtkdata.cambridgemusictechnology.co.uk/Telefunken/LeslieMendelson_TheHardestPart_Full.zip">Leslie Mendelson — <em>The Hardest Part</em></a> — Singer-Songwriter</li>
+</ul>
+<p>You may also browse <strong>cambridge-mt.com/ms/mtk/</strong> for other sessions in any genre that interests you.</p>
+
+<hr>
+
+<h2>Step 2: Create Your Mix</h2>
+<p>Work through the mixing workflow from class:</p>
+
+<h3>A. Setup and Static Mix</h3>
+<ol>
+  <li>Import the tracks into your DAW (Logic Pro, Reaper, Pro Tools, or any DAW you have access to).</li>
+  <li>Organize: name, colour-code, and group your tracks logically. Create a mix bus and route all tracks to it. Create a reverb bus.</li>
+  <li>Set gain staging — make sure no tracks are clipping before processing.</li>
+  <li>Build a <strong>static mix</strong>: using only faders and pan knobs, create the best balance you can. Spend real time on this before reaching for any plugins.</li>
+</ol>
+
+<h3>B. Processing</h3>
+<ol start="5">
+  <li><strong>EQ</strong>: Clean up problem frequencies. Start with high-pass filters on tracks that don't need low-end energy. Use subtractive EQ to address mud, boxiness, or harshness. Boost only where needed.</li>
+  <li><strong>Compression</strong>: Apply compression where dynamics need to be controlled — typically vocals, bass, and drum bus. Experiment and use your ears.</li>
+  <li><strong>Reverb</strong>: Set up at least one reverb on a send/bus. Use it to create a sense of space and depth. Experiment with pre-delay and decay time.</li>
+</ol>
+
+<h3>C. Refinement</h3>
+<ol start="8">
+  <li>Compare to a <strong>reference track</strong> in a similar style. You will likely need to reduce the gain on your reference track to match loudness with your mix.</li>
+  <li>Check your mix in <strong>mono</strong> — does it still hold together?</li>
+  <li>Check at <strong>low volume</strong> — is the balance still clear?</li>
+  <li>Take a break. Come back with fresh ears and make final adjustments.</li>
+  <li>Add at least one track of <strong>automation</strong>.</li>
+</ol>
+
+<hr>
+
+<h2>Step 3: Hand-written Reflection (200–300 words)</h2>
+<p>Write a short reflection addressing the following:</p>
+<ol>
+  <li><strong>Approach</strong>: What was the most important element you focused on in your mix? Why?</li>
+  <li><strong>Decisions</strong>: Describe 2–3 specific mixing decisions you made (e.g., "I cut 300 Hz on the acoustic guitar to reduce boxiness" or "I panned the two rhythm guitars left and right to create width"). Why did you make each choice?</li>
+  <li><strong>Challenges</strong>: What was the hardest part of the process? Did you struggle to understand anything?</li>
+  <li><strong>Listening</strong>: Did using a reference track change any of your decisions? Did checking in mono or at low volume reveal anything?</li>
+</ol>
+
+<hr>
+
+<h2>Deliverables</h2>
+<ol>
+  <li><strong>Stereo mix</strong> — WAV or AIFF, 48 kHz / 24-bit, peak level below 0 dBFS (leave headroom — do not clip)</li>
+  <li><strong>Written reflection</strong> — 200–300 words hand-written</li>
+</ol>
+
+<hr>
+
+<div class="rubric-page">
+<h2>Grading Rubric</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:14%">Criterion</th>
+      <th style="width:22%">Excellent (A / 85–100%)</th>
+      <th style="width:22%">Good (B / 70–84%)</th>
+      <th style="width:22%">Developing (C / 55–69%)</th>
+      <th style="width:14%">Insufficient (D/F / &lt;55%)</th>
+      <th style="width:6%">Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Balance &amp; Levels</strong></td>
+      <td>Clear hierarchy; lead elements prominent; no instruments buried or overpowering; static mix foundation evident</td>
+      <td>Generally good balance with minor issues; most elements audible and appropriately levelled</td>
+      <td>Uneven balance; some elements buried or overpowering; lead not consistently clear</td>
+      <td>No coherent balance; elements competing or inaudible; no sense of hierarchy</td>
+      <td><strong>25%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>EQ</strong></td>
+      <td>Effective use of HPF and corrective EQ; no obvious mud, boxiness, or harshness; frequency space carved between competing elements</td>
+      <td>Reasonable EQ choices; some problem frequencies addressed; occasional muddiness or harshness remains</td>
+      <td>Minimal or heavy-handed EQ; obvious tonal problems persist; limited evidence of intentional frequency shaping</td>
+      <td>No meaningful EQ applied, or EQ makes the mix worse; severe tonal problems</td>
+      <td><strong>20%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Compression</strong></td>
+      <td>Dynamics controlled where needed; vocals/instruments sit consistently in the mix; compression applied tastefully without audible pumping or squashing</td>
+      <td>Compression applied to appropriate tracks; mostly effective; minor over- or under-compression</td>
+      <td>Compression applied inconsistently or excessively; audible artifacts or no compression where clearly needed</td>
+      <td>No compression used where needed, or extreme over-compression that damages the mix</td>
+      <td><strong>15%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Reverb &amp; Space</strong></td>
+      <td>Cohesive sense of space; reverb used via sends; depth perception created; reverb level and character appropriate to genre</td>
+      <td>Reverb present and generally effective; some sense of depth; minor issues with level or character</td>
+      <td>Reverb either absent, excessive, or inappropriate; no clear sense of depth; reverb applied inconsistently</td>
+      <td>No spatial processing, or reverb makes the mix worse</td>
+      <td><strong>15%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Panning &amp; Stereo Image</strong></td>
+      <td>Thoughtful stereo placement; width and separation without holes; mono-compatible; centre anchored by lead elements</td>
+      <td>Reasonable panning; some width created; mostly mono-compatible; centre elements appropriately placed</td>
+      <td>Limited panning (mostly centre); minimal stereo interest; or panning creates imbalance</td>
+      <td>No meaningful panning, or panning that creates problems</td>
+      <td><strong>10%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Written Reflection</strong></td>
+      <td>Thoughtful, specific, and self-aware; references concrete mixing decisions with clear reasoning; demonstrates understanding of concepts from class; honest about challenges</td>
+      <td>Addresses all prompts with some specificity; shows understanding of core concepts; some reflection on process</td>
+      <td>Generic or vague; limited connection to actual mixing decisions; minimal evidence of conceptual understanding</td>
+      <td>Missing, extremely brief, or does not address the prompts</td>
+      <td><strong>15%</strong></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Total: 100%</strong></p>
+
+<hr>
+
+<h2>Tips</h2>
+<ul>
+  <li><strong>Spend time on the static mix.</strong> If it sounds good with just faders and panning, everything else becomes easier.</li>
+  <li><strong>Use your ears, not your eyes.</strong> Close the plugin GUI sometimes and just listen.</li>
+  <li><strong>Less is often more.</strong></li>
+  <li><strong>Take breaks.</strong> Walk away and come back with fresh ears.</li>
+</ul>
+
+<hr>
+
+<h2>Resources</h2>
+<ul>
+  <li><strong>Multitrack sessions</strong>: cambridge-mt.com/ms/mtk/</li>
+</ul>
+</div>
+
+</body>
+</html>

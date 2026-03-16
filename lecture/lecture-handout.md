@@ -73,6 +73,27 @@ EQ shapes the **frequency content** of a sound — what you hear as tone, bright
 
 ![The Frequency Spectrum](diagrams/03-frequency-spectrum.svg)
 
+### EQ Controls
+
+| Parameter | What It Does | Think of It As... |
+|-----------|-------------|-------------------|
+| **Frequency** | Selects the centre frequency to boost or cut | Where on the spectrum you're working |
+| **Gain** | How much you boost (+) or cut (−), in dB | How much you're turning that frequency range up or down |
+| **Q (Bandwidth)** | How wide or narrow the affected range is | Low Q = broad and gentle; High Q = narrow and surgical |
+
+### Common Filter Types
+
+| Filter | Shape | Typical Use |
+|--------|-------|-------------|
+| **Bell (Peak)** | Symmetrical boost/cut around a centre frequency | General-purpose tonal shaping — the most common EQ filter |
+| **High-Pass (HPF / Low Cut)** | Passes highs, removes everything below a cutoff | Cleaning low-end rumble from non-bass instruments |
+| **Low-Pass (LPF / High Cut)** | Passes lows, removes everything above a cutoff | Taming harsh high-frequency content or creating a "distant" effect |
+| **High Shelf** | Boosts or cuts all frequencies above a set point | Adding "air" or reducing brightness across the top end |
+| **Low Shelf** | Boosts or cuts all frequencies below a set point | Adding warmth or reducing low-end weight |
+| **Notch (Band-Reject)** | Very narrow cut at a specific frequency | Removing a specific resonance or hum (e.g., 60 Hz electrical hum) |
+
+A **parametric EQ** gives you independent control of frequency, gain, and Q for each band — it is the standard EQ type in most DAWs and the most flexible tool for mixing.
+
 ### Owsinski's Six Trouble Frequency Areas
 
 | Frequency | Problem | Solution |

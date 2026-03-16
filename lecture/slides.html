@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Introduction to Mixing — Dr. Taylor Brook</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #111;
+    color: #f0f0f0;
+    overflow: hidden;
+  }
+
+  .slide {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    padding: 6vh 8vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide.active { display: flex; }
+
+  /* Title slide */
+  .slide.title {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    text-align: center;
+    gap: 1.8vh;
+  }
+
+  .slide.title h1 {
+    font-size: 4.5vw;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    color: #fff;
+  }
+
+  .slide.title .subtitle {
+    font-size: 2vw;
+    font-weight: 300;
+    color: #a8b8d0;
+    margin-top: 1vh;
+  }
+
+  .slide.title .meta {
+    font-size: 1.4vw;
+    font-weight: 400;
+    color: #7a8ba8;
+    margin-top: 3vh;
+    line-height: 1.8;
+  }
+
+  .slide.title .divider {
+    width: 8vw;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #4a90d9, transparent);
+    margin: 2vh 0;
+  }
+
+  /* Quote slide */
+  .slide.quote {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    text-align: left;
+    gap: 0;
+    align-items: flex-start;
+    padding: 8vh 12vw;
+  }
+
+  .slide.quote .attribution {
+    font-size: 1.6vw;
+    font-weight: 300;
+    color: #7a8ba8;
+    margin-bottom: 4vh;
+  }
+
+  .slide.quote .attribution em {
+    font-style: italic;
+  }
+
+  .slide.quote blockquote {
+    font-size: 1.8vw;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #d0d8e8;
+    border-left: 3px solid #4a90d9;
+    padding-left: 2.5vw;
+  }
+
+  .slide.quote blockquote .quote-intro {
+    margin-bottom: 2.5vh;
+  }
+
+  .slide.quote blockquote ol {
+    padding-left: 1.5vw;
+    margin: 0;
+  }
+
+  .slide.quote blockquote ol li {
+    margin-bottom: 1.8vh;
+  }
+
+  .slide.quote blockquote ol li .parenthetical {
+    color: #8a9ab8;
+    font-size: 1.5vw;
+  }
+
+  /* Navigation hint */
+  .nav-hint {
+    position: fixed;
+    bottom: 2vh;
+    right: 3vw;
+    font-size: 0.9vw;
+    color: #555;
+    transition: opacity 0.3s;
+  }
+
+  /* Slide counter */
+  .slide-counter {
+    position: fixed;
+    bottom: 2vh;
+    left: 3vw;
+    font-size: 0.9vw;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+
+<!-- Slide 1: Title -->
+<div class="slide title active" id="slide-1">
+  <div class="subtitle">Dr. Taylor Brook</div>
+  <h1>Introduction to Mixing</h1>
+  <div class="divider"></div>
+  <div class="meta">
+    DMU11H Teaching Demonstration<br>
+    March 20, 2026<br>
+    University of Toronto
+  </div>
+</div>
+
+<!-- Slide 2: Moylan Quote -->
+<div class="slide quote" id="slide-2">
+  <div class="attribution">William Moylan — <em>The Art of Recording</em> (2002)</div>
+  <blockquote>
+    <div class="quote-intro">"Mixing is a process that encompasses:</div>
+    <ol>
+      <li>Creating an artistic blend of timbres and dynamic levels, and assigned spatial location, distance, and environment qualities <span class="parenthetical">(using the skills and concepts of a traditional composer or orchestrator),</span></li>
+      <li>Rehearsing and coordinating the precise changes that will occur to the sound source tracks <span class="parenthetical">(functioning similarly to a traditional conductor),</span> and</li>
+      <li>Actually performing the changes that were determined and rehearsed above in real time <span class="parenthetical">(similar to a performance on a traditional musical instrument)."</span></li>
+    </ol>
+  </blockquote>
+</div>
+
+<div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+<div class="nav-hint">&#8592; &#8594; to navigate</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+  const totalEl = document.getElementById('total');
+  const currentEl = document.getElementById('current');
+  totalEl.textContent = slides.length;
+
+  function showSlide(n) {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
+    currentEl.textContent = currentSlide + 1;
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ') showSlide(currentSlide + 1);
+    if (e.key === 'ArrowLeft') showSlide(currentSlide - 1);
+  });
+</script>
+
+</body>
+</html>
