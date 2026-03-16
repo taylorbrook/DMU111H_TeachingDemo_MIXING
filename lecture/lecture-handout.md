@@ -3,7 +3,9 @@
 ---
 Logic Session we will work though today is available here for download:
 
-https://drive.google.com/drive/folders/1aw7aa44Hl-B-o_s_FCwD3qobD1pQKF-u?usp=sharing
+https://drive.google.com/drive/folders/16xjO3RyLI8kzNBukc60Dux2jV8VkywOZ?usp=sharing
+
+Click on the three-dots and then "download"
 
 ## What is Mixing?
 
