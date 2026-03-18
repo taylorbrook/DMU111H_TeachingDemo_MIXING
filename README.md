@@ -1,8 +1,8 @@
 # Introduction to the Art of Mixing — Teaching Demo
 
-A 45-minute undergraduate lecture introducing audio mixing as a creative and technical practice.
+A 45-minute undergraduate lecture introducing audio mixing.
 
-This introductory class on mixing is designed to be DAW-agnostic
+This introductory class on mixing is designed to be DAW-agnostic but will use Logic Pro for demonstrations.
 
 ## Materials
 
