@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="lecture/qr-code-repo.png" alt="QR Code" width="200">
+</p>
+
 # Introduction to the Art of Mixing — Teaching Demo
 
 A 45-minute undergraduate lecture introducing audio mixing.

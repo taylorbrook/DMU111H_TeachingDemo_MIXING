@@ -1,6 +1,7 @@
 # Intro to Audio Mixing
 
 ---
+
 Logic Session we will work though today is available here for download:
 
 https://drive.google.com/file/d/1voTiR91ezcdVg04ZDi5TENgO9HwLmuxr/view?usp=sharing
