@@ -1,5 +1,9 @@
 # Intro to Audio Mixing
 
+<p align="center">
+  <img src="lecture/qr-code-repo.png" alt="QR Code" width="200">
+</p>
+
 ---
 
 Logic Session we will work though today is available here for download:
