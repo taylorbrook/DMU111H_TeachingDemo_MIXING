@@ -1,7 +1,7 @@
 # Intro to Audio Mixing
 
 <p align="center">
-  <img src="lecture/qr-code-repo.png" alt="QR Code" width="200">
+  <img src="qr-code-repo.png" alt="QR Code" width="200">
 </p>
 
 ---
